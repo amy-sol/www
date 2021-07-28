@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block;}
+body{font-family: 'Nanum Gothic', sans-serif; font-size: 18px;
+  color: #333}
+ol, ul{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+address{font-style: normal}
+a{color: #333; text-decoration: none}
+img{border: 0; vertical-align: top}
+
+.hidden{display: block; position: absolute;
+ left: -1000%; width: 1px; height: 1px;
+  overflow: hidden; color: #fff}
+
+  /*헤드라인 폰트 연결 */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700&family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+  
+  /*font-family: 'Nanum Gothic', sans-serif; font-weight:700
+font-family: 'Nanum Myeongjo', serif; font-weight:700
+font-family: 'Noto Sans KR', sans-serif; font-weight:700
+font-family: 'Roboto', sans-serif; font-weight:700*/
+
+/*스킵네비게이션*/
+#skipNav{position:relative;width:100%;overflow:hidden; z-index: 60;}
+#skipNav a{display:block; height:1px; margin-bottom:-1px;
+      overflow:hidden; text-align:center; text-decoration:none; color:#fff; font-size:16px; font-weight: bold;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{
+     display:block;height:auto;padding:10px 0; background:#fc7900;}
+
+/*헤더공통영역*/
+.wrap{width: 100%; overflow: hidden;}
+#headerArea {position: fixed; width: 100%; background: #fff; z-index: 50; border-bottom: 1px solid #ccc;
+             box-shadow: 0 0 10px #999;}
+#headerArea::before{content: ''; display: block; width: 100%; height: 40px; background: #5a4c31;
+                    position: absolute; left: 0; z-index: -10;}
+#headerArea .header_inner{width: 1200px; margin: 0 auto;}
+#headerArea .top_menu{overflow: hidden}
+#headerArea .login_join{width: 200px; height: 40px; float: left;}
+#headerArea .login_join ul{overflow: hidden; margin: 7px 0 11px 35px;}
+#headerArea .login_join li{float: left; margin-right: 20px;}
+#headerArea .login_join li a{display:block; color: #fff; font-size: 0.889em;; font-weight:bold; transition: all .15s ease-in; margin-bottom: 3px;}
+#headerArea .login_join li a:hover i{color: #fc7900;}
+#headerArea .login_join .last{margin: 0; position: relative;}
+#headerArea .login_join .last::before{content: ''; display: block; width: 1px; height: 16px; background: #ccc;
+  position: absolute; left:-10px; top:3px}
+
+#headerArea .sns{width: 1000px; height: 40px; float: right; overflow: hidden;}
+#headerArea .sns ul{margin: 0px 40px 0px 857px; overflow: hidden; height: 40px;}
+#headerArea .sns ul li{float: left; margin: 1px 10px 3px 0;}
+#headerArea .sns ul li a{color: #fff; font-size: 1.5em; transition: all .15s ease-in;}
+#headerArea .sns ul li a:hover{color: #fc7900;}
+#headerArea .sns ul .last{margin: 0;}
+
+#headerArea h1{width: 1200px; height: 80px; position: relative;}
+#headerArea h1 a{display: block; width: 223px; height: 35px; background: url(../images/logo.jpg) no-repeat; text-indent: -1000%; overflow: hidden; 
+                 position: absolute; right: 488px; top: 44px;}
+
+#gnb{clear:both; width: 1200px;}
+#gnb ul.dropdownmenu{float:left;}
+#gnb ul.dropdownmenu li.menu{position:relative;float:left;width:200px; height: 90px;}
+#gnb ul.dropdownmenu li a.depth1{font-family: 'Noto Sans KR'; font-weight:700; font-size: 22px; display:block; width:200px;padding:44px 0 27px 0;; 
+        text-align: center; transition: all .25s; }
+#gnb ul.dropdownmenu li a.depth:hover{color: #fc7900;}
+#gnb .dropdownmenu .menu::after{background: none repeat scroll 0 0 transparent; bottom: 0; content: ""; display: block; height: 3px; left: 50%; position: absolute; top: 85px; background: #fc7900; transition: all 0.3s ease 0s, left 0.3s ease 0s; width: 0;}
+#gnb .dropdownmenu .menu:hover::after{width: 70%; left: 30px;}
+
+ /* 2depth */
+#gnb ul.dropdownmenu li ul{width:200px; height:300px; position:absolute; top:90px;left:0;
+  padding:15px 0; line-height:2em; display: none;}
+
+#gnb ul.dropdownmenu li ul li{text-align:center; font-weight:bold;}
+#gnb ul.dropdownmenu li ul li a{display:block;  color:#333; transition: all .25s;}
+#gnb ul.dropdownmenu li ul li a:hover{color:#fc7900; }
+
+
+/*gnb수정*/
+
+/*푸터공통영역*/
+#footerArea{height: 200px; background:#5a4c31}
+#footerArea .footer_inner{width: 1200px; margin: 0 auto;}
+#footerArea .footer_logo{width: 186px; height: 200px; float: left;}
+#footerArea .footer_logo img{margin: 50px 0 50px 30px; width: 156px; height: 95px}
+#footerArea .footer_right{overflow: hidden; float: right;}
+#footerArea .footer_menu{width: 600px; height: 100px; padding: 50px 60px; float: left;}
+#footerArea .footer_menu ul{margin-bottom: 22px; overflow: hidden;}
+#footerArea .footer_menu ul li{float: left; margin-right: 80px;}
+#footerArea .footer_menu ul .last{margin: 0;}
+#footerArea .footer_menu ul li a{color: #fff; font-weight: bold;}
+#footerArea .footer_menu address{margin-bottom: 22px;}
+#footerArea .footer_menu address, #footerArea .footer_menu p{font-size: 0.889em; color: #fff;}
+#footerArea .select{width: 244px; height:30px;  margin: 50px 50px 120px 0; background: url(../../images/plus.jpg)no-repeat; float: right; position:relative;}
+.select .arrow{ display:block; font-size:18px; padding:0 10px;font-family: 'Noto Sans KR', sans-serif; font-weight:700}
+.select .arrow:hover{color:#666}
+.select .aList{ position:absolute; top:30px; left:0; width:244px; background: #fff;
+                display: none;}
+.select .aList li{border-bottom:1px solid #ccc;}
+.select .aList li a{display:block;padding-left:10px; font-family: 'Noto Sans KR', sans-serif;}
+.select .aList li a:hover{ background:#F0F0F0; color:#666}
+
+/* 상단이동 버튼 */
+.topMove{display:block; width: 60px; height: 60px; background: #fc7900; border-radius: 30px;
+position: fixed; left:50%; margin-left: 630px;  bottom:250px; color: #fff; font-family: 'Roboto', sans-serif; font-weight:700;} 
+.topMove i{display: block; margin-top: 15px; text-align: center; font-size: 30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

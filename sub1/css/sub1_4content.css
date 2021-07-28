@@ -1,0 +1,41 @@
+/*font-family: 'Nanum Gothic', sans-serif; font-weight:700
+font-family: 'Nanum Myeongjo', serif; font-weight:700
+font-family: 'Noto Sans KR', sans-serif; font-weight:700
+font-family: 'Roboto', sans-serif; font-weight:700*/
+
+/* 민속촌소개 내용 영역*/
+
+#content .content_area{width: 1200px; margin: 0 auto;}
+#content .content_area h3{display: block; font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 50px;
+    color: #333; padding-top: 100px; text-align: center; position: relative;}
+#content .content_area h3::before{content: ''; display: block; position: absolute; top: 170px; left: 510px; width: 180px; height: 5px; background: rgb(252, 121, 0);}
+#content .content_area .slogan{display: block; font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 22px; 
+    color: #666; text-align: center; padding: 50px 0 100px 0;}
+#content .content_area #map{width: 1000px; height: 600px; margin: 0 100px;}
+#content .content_area .address{display: block; font-size: 24px; margin: 50px 100px; position: relative;}
+#content .content_area .address i{font-size: 30px; color: #666;}
+#content .content_area .address::before{content: ''; display: block; position: absolute; top: 42px; width: 1000px; height: 1px; background: #ccc;}
+#content .content_area .traffic{width: 1000px; padding: 0 100px;}
+
+#content .content_area .bus{width: 900px; height: 270px; background: url(../images/content4/bus_background.jpg)right top no-repeat;}
+#content .content_area .bus dt{display: block; font-size: 30px; font-weight: 700; margin: 100px 0 30px 0;}
+#content .content_area .bus dd{margin-bottom: 15px;}
+#content .content_area .bus p span{font-size: 20px; font-weight: 700;}
+#content .content_area .bus .green i{font-size: 24px; color: green;}
+#content .content_area .bus .green span{color: green; font-weight: 700;}
+#content .content_area .bus .red i{font-size: 24px; color: red;}
+#content .content_area .bus .red span{color: red; font-weight: 700;}
+#content .content_area .bus .brown i{font-size: 24px; color: #9e7940;}
+#content .content_area .bus .brown span{color: #9e7940; font-weight: 700;}
+
+#content .content_area .shuttle p{display: block; font-size: 30px; font-weight: 700; margin-bottom: 30px;}
+#content .content_area .shuttle table{border-collapse: collapse;border-bottom: 2px solid #fc7900; border-top:2px solid #fc7900; width: 1000px;}
+#content .content_area .shuttle td {padding: 15px; border-bottom: 1px solid #ccc; line-height: 27px;}
+#content .content_area .shuttle th{padding: 15px; border-bottom: 1px solid #ccc; text-align: center; line-height: 27px;}
+#content .content_area .shuttle .raw1{background: #f7f7f7;}
+#content .content_area .shuttle span{font-weight: 700;}
+
+#content .content_area .parking{margin: 100px; width: 1000px; height: 200px; overflow: hidden;}
+#content .content_area .parking span{display: block; font-size: 30px; font-weight: 700; margin-bottom: 30px; overflow: hidden;}
+#content .content_area .parking i{display: block; color: blue; font-size: 50px; float: left;}
+#content .content_area .parking p{display: block; float: right; padding-right: 350px; line-height: 27px;}

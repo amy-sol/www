@@ -1,0 +1,165 @@
+<?
+	session_start();
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한국민속촌-민속촌의 발자취</title>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_2content.css">
+    <script src="https://kit.fontawesome.com/087fc1f4e8.js" crossorigin="anonymous"></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE 9]>  
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <div class="wrap">
+        <!-- 서브 헤더영역 -->
+       <? include "../common/sub_head.html" ?>
+
+        <div class="visual"></div>
+
+        <div class="sub_menu">
+            <h3>한국민속촌</h3>
+            <ul>
+                <li><a href="./sub1_1.html">민속촌소개</a></li>
+                <li class="current"><a href="./sub1_2.html">민속촌의 발자취</a></li>
+                <li><a href="../greet/list.php">민속촌소식</a></li>
+                <li><a href="./sub1_4.html">오시는 길</a></li>
+                <li><a href="../concert/list.php">보도자료</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="title_area">
+              <div class="title_area_box">
+                <div class="line_map">
+                    <p><i class="fas fa-home"></i> &gt; 한국민속촌 &gt; <strong>민속촌의 발자취</strong></p>
+                </div>
+                <h2>민속촌의 발자취</h2>
+                <ul class="tab_menu">
+                    <li><a href="#" class="tab tab1">연혁</a></li>
+                    <li><a href="#" class="tab tab2">경영철학</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="content_area">
+              <section class="history contlist">
+                <h3>연혁</h3>
+                <p class="slogan">Since 1974. 대한민국 전통문화의 기준 </p>
+                <img src="./images/content2/sub1_2.jpg" alt="민속촌대문">
+                <div class="history_map">
+                 <span class="history_slogan">“<br>한국민속촌이<br>걸어온<strong>길</strong><br>”</span>
+                 <ul>
+                     <li class="t2010">
+                         <dl>
+                             <dt>2010s</dt>
+                             <dd><span>2018.08</span> 바닥분수 공원 오픈</dd>
+                             <dd><span>2017.10</span> 공방거리 조성</dd>
+                             <dd><span>2015.03</span> 놀이마을 리뉴얼 오픈</dd>
+                             <dd><span>2014.10</span> 한국민속촌 개관 40주년</dd>
+                             <dd><span>2013.08</span> 한국민속촌 브랜드 리뉴얼</dd>
+                             <dd><span>2013.01</span> 귀신전 오픈</dd>
+                             <dd><span>2012.06</span> 전설의 고향 오픈</dd>
+                             <dd><span>2011.05</span> 탈춤전시관 개관</dd>
+                         </dl>
+                     </li>
+                     <li class="t2000">
+                         <dl>
+                             <dt>2000s</dt>
+                             <dd>옹기생활관 개관 <span>2005.08</span></dd>
+                             <dd>사극영상관 개관 (3개 전시관) <span>2004.05</span></dd>
+                             <dd>미술관, 조각공원 오픈 <span>2002.09</span></dd>
+                             <dd>세계민속관 개관 <span>2001.08</span><br>
+                                (전세계 16개국 유물 수집, 9개 전시관)</dd> 
+                         </dl>
+                     </li>
+                     <li class="t1990">
+                         <dl>
+                             <dt>1990s</dt>
+                             <dd><span>1999.05</span> 유스호스텔 , 컨벤션센터 오픈</dd>
+                             <dd><span>1997.05</span> 어트랙션 테마파크 오픈</dd>
+                             <dd><span>1995.12</span> 전통민속관 개관 (7개 전시실),<br>한국민속촌 박물관 개관</dd>
+                         </dl>
+                     </li>
+                     <li class="t1980">
+                         <dl>
+                             <dt>1980s</dt>
+                             <dd><span>1979 ~1990</span><br>
+                                전국 각지 실물가옥 이전, 마을 조성 보완</dd>
+                         </dl>
+                     </li>
+                     <li class="t1970">
+                         <dl>
+                             <dt>1970s</dt>
+                             <dd><span>1974.10.03</span><br>한국민속촌 개관</dd>
+                         </dl>
+                     </li>
+                 </ul>
+                </div>
+              </section>
+              <section class="vision contlist">
+                <h3>경영철학</h3>
+                <p class="slogan">새로운 전통이 시작되는 곳 , 한국민속촌</p>
+                <img src="./images/content2/sub1_2_2.jpg" alt="한국민속촌전경">
+                <h4>비전(Vision)</h4>
+                <p class="vision_slogan"><span>대한민국을 대표하는</span><br>
+                    최고의 글로벌 전통문화브랜드</p>
+                <p>한국의 전통문화를 대표하는 브랜드로서 우리문화유산의 가치를 함께 나누는 컬처리더.<br>
+                    위대한 전통에서 미래를 조망하고 새로운 가치를 창조하는 글로벌 브랜드, 한국민속촌</p>
+                <h4>미션(Mission)</h4>
+                <p class="mission_slogan"><span>Re-tradition</span><br>전통을 새롭게 시작하다</p>
+                <div class="mission_circle">
+                    <div class="center_circle">
+                        <img src="./images/content2/logo.jpg" alt="한국민속촌 로고">
+                        <p>Tradition</p>
+                    </div>
+                    <div class="circle1">
+                        <dl>
+                         <dt>make a creation</dt>
+                         <dd>재발견, 재해석을 통해<br>전통을 새롭게 창조한다</dd>
+                        </dl>
+                   </div>
+                    <div class="circle2">
+                        <dl>
+                         <dt>make a people happy</dt>
+                         <dd>더욱 새롭고 즐거운전통으로<br>사람들을행복하게한다</dd>
+                        </dl>
+                    </div>
+                    <div class="circle3">
+                        <dl>
+                         <dt>make a people happy</dt>
+                         <dd>전통을 통해 새로운 가치와<br>시너지를 만든다</dd>
+                        </dl>
+                    </div>
+                </div>
+              </section>
+                
+
+            </div>
+
+
+
+        </article>
+        
+        <!-- 서브 푸터영역 -->
+        <? include "../common/sub_foot.html" ?>
+
+     </div>
+<!--JQuery-->
+<script src="../common/js/jquery-1.12.4.min.js"></script>
+<script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+<script src="../common/js/fullnav.js"></script>
+<script src="./js/sub1.js"></script>
+</body>
+</html>

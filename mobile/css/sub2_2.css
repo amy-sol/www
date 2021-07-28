@@ -1,0 +1,20 @@
+.title_area{margin-top: 50px; position: relative;}
+.title_area_box{height: 150px; overflow: hidden; background: url(../images/sub2.jpg) center no-repeat; background-size: cover;}
+h2{position: absolute; top: 60px; width: 100%; text-align: center; color: #fff; font-size: 22px;}
+#content{width: 100%; margin: 0 auto;}
+
+#content .today_performance h3{width: 140px; margin: 0 auto; font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 24px; 
+    color: #333; padding-top: 50px; text-align: center; position: relative;}
+#content .today_performance h3::before{content: ''; display: block; position: absolute; top: 85px; left:0; width: 140px; height: 4px; background: rgb(252, 121, 0);}
+#content .slogan{display: block; font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 15px; 
+    color: #666; text-align: center; padding: 20px 0 50px 0;}
+
+    #content .today_performance .date{width: 90%px; margin:0 5%; background: #f7f7f7; border-radius:40px; padding: 10px 0;}
+    #content .today_performance .date p{display: block; font-size: 20px; text-align: center; font-family: 'Nanum Myeongjo', serif; font-weight:700; line-height: 1.5em;}
+    #content .today_performance .date p span{color: #fc7900;}
+    #content .today_performance .performance_info li{width: 98%; border: 1px solid #ccc; margin: 30px 1%; box-sizing: border-box;}
+    #content .today_performance .performance_info li img{width: 100%;}
+    #content .today_performance .performance_info li dl{margin: 20px; }
+    #content .today_performance .performance_info li dt{font-family: 'Noto Sans KR', sans-serif; font-weight:700; font-size: 15px; margin-bottom: 10px;}
+    #content .today_performance .performance_info li dd{line-height: 1.5em; margin-bottom: 5px;}
+    #content .today_performance .performance_info li dd span{color: #fc7900; font-weight: 700}

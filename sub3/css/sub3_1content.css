@@ -1,0 +1,64 @@
+/*font-family: 'Nanum Gothic', sans-serif; font-weight:700
+font-family: 'Nanum Myeongjo', serif; font-weight:700
+font-family: 'Noto Sans KR', sans-serif; font-weight:700
+font-family: 'Roboto', sans-serif; font-weight:700*/
+
+/* 민속촌소개 내용 영역*/
+
+
+#content .content_area{position: relative;}
+#content .content_area h3{font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 50px; 
+    color: #333; padding-top: 100px; text-align: center; position: relative;}
+#content .content_area h3::before{content: ''; display: block; position: absolute; top: 170px; left: 468px; width: 265px; height: 5px; background: rgb(252, 121, 0);}
+#content .content_area .slogan{display: block; font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 22px; 
+    color: #666; text-align: center; padding: 50px 0 100px 0;}
+#content .folkvillage_now{overflow: hidden;}
+#content .folkvillage_now .wrap1{width: 1200px; margin: 0 auto;}
+#content .folkvillage_now .poster{position: absolute; width: 2000px; height: 540px; background: url(../images/content1/MAIN_202104211647346868.jpg) no-repeat;
+left: 50%; margin-left: -1000px;}
+#content .folkvillage_now .detail{position: absolute; left: 50%; margin-left: -1000px; margin-top: 540px; width: 2000px; height: 2000px; background: url(../images/content1/background.jpg)no-repeat; }
+#content .folkvillage_now .wrap2{width: 1200px; margin: 0 auto;}
+#content .folkvillage_now h5{font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 35px; color: #fff; text-align: center; margin: 100px 0 30px 0;}
+
+#content .content_area .program{border-collapse: collapse;  width: 1100px; margin:0 0 0 48px;}
+#content .content_area .program td{padding: 10px 0 10px 0; border-bottom: 1px solid #ccc; text-align: center; background: #fff; border-right: 1px solid #ccc;}
+#content .content_area .program th{padding: 10px 0 10px 0; border-bottom: 1px solid #ccc; text-align: center; color: #fff;}
+#content .content_area .program tr th:nth-child(1){width: 150px;}
+#content .content_area .program tr th:nth-child(2){width: 150px;}
+#content .content_area .program tr th:nth-child(3){width: 650px;}
+#content .content_area .program tr th:nth-child(4){width: 150px;}
+#content .content_area .raw1{background: darkblue; border-right: 1px solid #ccc;}
+#content .content_area .program tr .last{border-right: none;}
+#content .content_area .program tr .name{text-align: justify; line-height: 1.5em;}
+#content .content_area .folkvillage_now{height: 2862px;}
+#content .content_area .folkvillage_now .notice{display: block; color: #fff; line-height: 2em; margin: 0 0 0 50px;}
+#content .content_area .folkvillage_now .place{overflow: hidden;margin-left: 40px;}
+#content .content_area .folkvillage_now li{float: left; margin-right: 40px; width: 250px;}
+#content .content_area .folkvillage_now .place p{display: block; color: darkblue; text-align: center; padding: 10px 0; background: #fff; font-weight: 700;}
+#content .folkvillage_now .ticket{position: relative; margin: 0 50px; width: 1100px; height: 600px; background: url(../images/content1/ticket.png)no-repeat;}
+#content .folkvillage_now .ticket .blue{color: darkblue; margin: 100px auto 0; padding-top: 50px;}
+#content .folkvillage_now .ticket .date{display: block; width: 230px; font-size: 16px; text-align: center; background: red; color: #fff; border-radius: 15px; margin: 20px auto; padding: 5px 0; font-weight: 700;}
+#content .folkvillage_now .ticket .price_table{overflow: hidden; margin: 35px 0 20px 125px;}
+#content .folkvillage_now .ticket .price_table li{float: left; width: 400px; margin-right: 50px;}
+#content .folkvillage_now .ticket .before th{text-align: center; width: 398px; background: #ccc; color: #fff; padding: 15px 0; border:1px solid #ccc;}
+#content .folkvillage_now .ticket .before td{text-align: center; color: #ccc; padding: 15px 0; border:1px solid #ccc;}
+#content .folkvillage_now .ticket .after th{text-align: center; width: 390px; background: darkblue; color: #fff; padding: 10px 0; border:5px solid darkblue;}
+#content .folkvillage_now .ticket .after td{text-align: center; color: red; padding: 57px 0; border:5px solid darkblue; font-size: 2em; font-weight: 700;}
+#content .folkvillage_now .ticket .arrow{display: block; width: 90px; height: 90px; background: url(../images/content1/arrow.png); position: absolute; top: 251px; left: 505px;}
+#content .folkvillage_now .ticket .notice2{margin-left: 135px;}
+#content .folkvillage_now .ticket .notice2 li{float: none; width: 800px; font-size: 14px; color: darkblue; line-height: 1.5em; font-weight: 700;}
+
+#content .annual_event{width: 1200px; margin: 0 auto;}
+#content .content_area .annual_event .season{width: 1200px; overflow: hidden; margin-bottom: 150px;}
+#content .content_area .annual_event .season li{float: left; width: 500px; height: 650px; margin: 0 50px;}
+#content .content_area .annual_event .season img{padding: 0;}
+#content .content_area .annual_event .season dl{font-family: 'Nanum Gothic', sans-serif; font-weight:400; color: #333;}
+#content .content_area .annual_event .season dt{font-size: 18px; font-weight: 700; margin: 20px 0 40px 0; position: relative;}
+#content .content_area .annual_event .season dt span{font-size: 22px; color: #fc7900;}
+#content .content_area .annual_event .season dt::before{content: ''; display: block; position: absolute; top: 42px; width: 500px; height: 1px; background: #ccc;}
+#content .content_area .annual_event .season dd{font-size: 16px; margin-bottom: 8px; text-align: justify; line-height: 1.5em;}
+#content .content_area .annual_event .season .info{margin-bottom: 30px; font-weight: 700;}
+
+#content .annual_event h3::before{content: ''; display: block; position: absolute; top: 170px; left: 508px; width: 182px; height: 5px; background: rgb(252, 121, 0);}
+#content .annual_event h4{font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 40px; text-align: center; margin: 100px 0;}
+#content .annual_event .annual_event_img{margin: 0 50px;}

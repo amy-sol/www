@@ -1,0 +1,66 @@
+/*font-family: 'Nanum Gothic', sans-serif; font-weight:700
+font-family: 'Nanum Myeongjo', serif; font-weight:700
+font-family: 'Noto Sans KR', sans-serif; font-weight:700
+font-family: 'Roboto', sans-serif; font-weight:700*/
+
+/* 할인프로모션 내용 영역*/
+
+#content .content_area{width: 1200px; margin: 0 auto;}
+#content .content_area h3{font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 50px; 
+    color: #333; padding-top: 100px; text-align: center; position: relative;}
+#content .content_area h3::before{content: ''; display: block; position: absolute; top: 170px; left: 465px; width: 273px; height: 5px; background: rgb(252, 121, 0);}
+#content .content_area .slogan{display: block; font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 22px; 
+    color: #666; text-align: center; padding: 50px 0 100px 0;}
+#content .content_area section{margin-bottom: 150px;}
+#content .content_area h4{text-align: center; font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 40px; margin: 100px;}
+#content .content_area .title_img{margin: 0 50px 0 50px;}
+
+#content .content_area .price{border-collapse: collapse; border-bottom: 2px solid #fc7900; border-top:2px solid #fc7900; width: 1100px; margin: 50px;}
+#content .content_area .price td{padding: 15px 0 15px 0; border-bottom: 1px solid #ccc; text-align: center;}
+#content .content_area .price th{padding: 15px 0 15px 0; border-bottom: 1px solid #ccc; text-align: center;}
+#content .content_area .price tr th:nth-child(1){width: 250px;}
+#content .content_area .price tr th:nth-child(2){width: 250px;}
+#content .content_area .price tr th:nth-child(3){width: 250px;}
+#content .content_area .price tr th:nth-child(3){width: 250px;}
+#content .content_area .raw1{background: #f7f7f7;}
+
+#content .content_area .member_price ul{width: 1100px; border: 1px solid #ccc; margin: 0 50px 150px 50px; overflow: hidden;}
+#content .content_area .member_price li{float: left; width: 530px; overflow: hidden; margin: 0 20px 30px 0;padding-top: 30px; position: relative;}
+#content .content_area .member_price li img{float: left; margin-left: 30px;}
+#content .content_area .member_price li span{float: left; display: block; margin:30px 0 50px 20px; font-size: 24px; font-weight: 700;}
+#content .content_area .member_price li p{clear: both; margin-left: 30px; line-height: 2em;}
+#content .content_area .member_price li a{display: block; width: 160px; border-radius: 35px; border: 3px solid  rgb(252, 121, 0);
+  font-size: 0.889em; font-weight: 700; color: rgb(252, 121, 0); text-align: center;   padding: 15px; transition: all .15s ease-in; position: absolute; top: 50px; left: 300px;}
+#content .content_area .member_price li a:hover{background: rgb(252, 121, 0); color: #fff; box-shadow:none}
+
+
+
+.service{margin-left: 40PX; overflow: hidden;}
+.service li{float: left; margin-right: 5px;}
+.service .effect{font-family: 'Noto Sans KR', sans-serif; font-weight:700; position: relative; overflow: hidden; margin: 10px; min-width: 220px; max-width: 350px; max-height: 350px; width: 100%; background: #000000;
+  color: #ffffff;text-align: center; box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);}
+.service .effect * {-webkit-box-sizing: border-box; box-sizing: border-box; -webkit-transition: all 0.45s ease-in-out; transition: all 0.45s ease-in-out;}
+.service .effect img {max-width: 100%; position: relative; opacity: 0.9;}
+.service .effect figcaption {position: absolute; top: 45%; left: 7%; right: 7%; bottom: 45%; border: 1px solid white; border-width: 1px 1px 0;}
+.service .effect .heading {overflow: hidden; -webkit-transform: translateY(50%); transform: translateY(50%); position: absolute; bottom: 0; width: 100%;}
+.service .effect h5{display: table; margin: 0 auto; padding: 0 10px; position: relative; text-align: center; width: auto; text-transform: uppercase; font-weight: 400; font-size: 25px;}
+.service .effect h5 span{font-weight: 800;}
+.service .effect h5:before, .service .effect h5:after{position: absolute; display: block; width: 1000%; height: 1px; content: ''; background: white; top: 50%;}
+.service .effect h5:before{left: -1000%;}
+.service .effect h5:after{right: -1000%;}
+.service .effect p{top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); position: absolute; width: 100%; padding: 0 20px; margin: 0; opacity: 0; line-height: 2em; font-size: 1.3em;}
+.service .effect a{left: 0; right: 0; top: 0; bottom: 0; position: absolute; z-index: 1;}
+.service .effect:hover img{opacity: 0.25; -webkit-transform: scale(1.1); transform: scale(1.1);}
+.service .effect:hover figcaption{top: 7%; bottom: 7%;}
+.service .effect:hover p{opacity: 1; -webkit-transition-delay: 0.35s; transition-delay: 0.35s; }
+
+#content .content_area .member_service .price{margin-bottom: 10px;}
+#content .content_area .member_service .row2{border-right: 1px solid #ccc;}
+#content .content_area .member_service .notice{display: block; margin: 0 0 50px 55px; font-size: 0.9em;}
+
+#content .content_area .member_service .caution{width: 1100px; border: 1px solid #ccc; margin: 0 50px 150px 50px; overflow: hidden;}
+#content .content_area .member_service .caution li{float: left; width: 530px; overflow: hidden; margin: 0 20px 30px 0;padding-top: 30px;}
+#content .content_area .member_service .caution li i{float: left; margin-left: 30px; display: block; color: skyblue; font-size: 36px;}
+#content .content_area .member_service .caution li span{float: left; display: block; margin: 0 0 30px 20px; font-size: 24px; font-weight: 700;}
+#content .content_area .member_service .caution li p{clear: both; margin-left: 30px; line-height: 2em;}
+

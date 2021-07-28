@@ -1,0 +1,13 @@
+/*font-family: 'Nanum Gothic', sans-serif; font-weight:700
+font-family: 'Nanum Myeongjo', serif; font-weight:700
+font-family: 'Noto Sans KR', sans-serif; font-weight:700
+font-family: 'Roboto', sans-serif; font-weight:700*/
+
+/* 민속촌소개 내용 영역*/
+
+#content .content_area{width: 1200px; margin: 0 auto;}
+#content .content_area h3{font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 50px; 
+    color: #333; padding-top: 100px; text-align: center; position: relative;}
+#content .content_area .history h3::before{content: ''; display: block; position: absolute; top: 170px; left: 558px; width: 90px; height: 5px; background: rgb(252, 121, 0);}
+#content .content_area .history .slogan{display: block; font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 22px; 
+    color: #666; text-align: center; padding: 50px 0 100px 0;}

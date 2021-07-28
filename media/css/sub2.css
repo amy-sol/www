@@ -1,0 +1,118 @@
+/* 와이드 pc  */
+
+	
+.videoBox{width:100%;height:100%; overflow:hidden; position:fixed;}
+
+#imgBG{
+	position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+}
+.videoBox .visual_title{position: absolute; top: 30%; left: 0; width: 100%;
+   text-align: center; color: #fff; font-family: 'Pacifico', cursive;  font-size: 120px; margin: 0 auto;}
+
+.down{display: block; text-indent: -9999px; position: absolute; overflow: hidden; width: 60px; height: 120px;
+	 left:50%; margin-left: -30px; bottom: 30%; background: url(../images/arrow.png);
+	animation:ani 1.2s infinite alternate;}
+   @keyframes ani{
+      0%{
+          bottom: 150px;
+      }
+      100%{
+          bottom: 170px;
+      }
+  }	
+	
+#content{width: 100%;}
+#content .characters{width: 100%; position: relative;}
+#content .characters .characters_box1{ background: rgba(0, 0, 0, .85); width: 100%; padding-top: 100px;}
+#content .characters .characters_box1 .character_img{width: 100%;}
+#content .characters .characters_box2{width: 100%; background: #000; padding: 100px 0; margin-top: 50px;}
+.col:nth-child(1) .container .front{background: url(../images/character1_600.jpg)  center no-repeat;}
+.col:nth-child(1) .container .back{background: url(../images/emma.jpg) no-repeat;}
+.col:nth-child(2) .container .front{background: url(../images/character2.jpg) center no-repeat;}
+.col:nth-child(2) .container .back{background: url(../images/tompson.jpg) no-repeat;}
+.col:nth-child(3) .container .front{background: url(../images/character4.jpg) center no-repeat;}
+.col:nth-child(3) .container .back{background: url(../images/joel.jpg) no-repeat;}
+.col:nth-child(4) .container .front{background: url(../images/character3.jpg) center no-repeat;}
+.col:nth-child(4) .container .back{background: url(../images/paul.jpg) no-repeat;}
+.col:nth-child(5) .container .front{background: url(../images/character5.jpg) center no-repeat;}
+.col:nth-child(5) .container .back{background: url(../images/kirby.jpg) no-repeat;}
+.cols{width: 90%; margin: 0 5%;}
+.col{width:100%; cursor: pointer; overflow: hidden;}
+.container{width:600px; cursor: pointer; float: left; margin: 50px auto;}
+.introduce{width: 45%; float: right; height: 756px; margin: 50px auto; padding: 200px 100px 200px 30px; box-sizing: border-box;}
+.introduce .character{display: block; text-align: center; font-size: 50px;font-family: 'Pacifico', cursive; color: #fff;}
+.introduce .name{display: block; text-align: center; font-size: 30px; color: #fff; padding: 20px 0;}
+.introduce .int{display: block; text-align: center; color: #fff; font-size: 25px; line-height: 2em;}
+.container{transform-style: preserve-3d;perspective: 2000px;} 
+.container .front, .container .back{background-size: cover; border-radius: 10px; background-position: center;transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);backface-visibility: hidden; height: 756px;}
+
+.container .front:after{position: absolute;top: 0;left: 0;z-index: 1;width: 100%;height: 100%;content: '';display: block; backface-visibility: hidden; border-radius: 10px;}
+.container:hover .front, .container:hover .back{transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);}
+.container .inner{transform: translateY(-50%) scale(0.94); top: 80%;position: absolute;left: 0; width: 100%;padding: 25px;box-sizing: border-box; outline: 1px solid transparent;perspective: inherit;z-index: 2;} 
+.container .back .inner{display: none;}
+.container .back{position: absolute;top: 0;left: 20px;width: 100%;transform: rotateY(180deg);transform-style: preserve-3d;} 
+.container .front{transform: rotateY(0deg);transform-style: preserve-3d;overflow: hidden;}
+.container:hover .back{transform: rotateY(0deg);transform-style: preserve-3d;overflow: hidden;}
+.container:hover .front{transform: rotateY(-180deg);transform-style: preserve-3d;}
+.col .container .small_tablet{display: none;}
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	#content{ width:auto}
+   .introduce{width: 30%; float: right; height: 756px; margin: 50px auto; padding: 0 30px}
+   .introduce .character{font-size: 40px;}
+   .col:nth-child(2) .introduce, .col:nth-child(5) .introduce{padding: 150px 30px}
+   .col:nth-child(3) .introduce, .col:nth-child(4) .introduce{padding: 50px 30px}
+  
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+#content{ width:auto; margin:0;}
+#content .characters .characters_box1{padding: 30px 0;}
+#content .characters .characters_box2{padding: 70px 0;}
+.container{width:600px; cursor: pointer; float: none; margin: 50px auto;}
+.introduce{width: 90%; float: none; height: 400px; margin: 50px auto; padding: 0; box-sizing: border-box;}
+.col:nth-child(2) .introduce, .col:nth-child(3) .introduce, .col:nth-child(4) .introduce, .col:nth-child(5) .introduce{padding: 0}
+
+}
+
+
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+   .col .container{width: 90%; margin: 50px 5%;}
+   .col .container a{display: none;}
+   .col .container .small_tablet{display: block; width: 100%;}
+
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+   #content{ width:auto; margin:0;}
+   #content .characters .characters_box1{padding: 20px 0;}
+   #content .characters .characters_box2{padding: 50px 0;}
+.videoBox .visual_title{position: absolute; top: 35%; font-size: 80px;}
+.introduce{height: 300px;}
+.introduce .character{font-size: 40px;}
+.introduce .name{font-size: 28px;}
+.introduce .int{font-size: 22px;}
+
+}
+
+/* 소형 모바일 */
+@media screen and (max-width:480px) {
+	}
+
+
+

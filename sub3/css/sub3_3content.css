@@ -1,0 +1,32 @@
+/*font-family: 'Nanum Gothic', sans-serif; font-weight:700
+font-family: 'Nanum Myeongjo', serif; font-weight:700
+font-family: 'Noto Sans KR', sans-serif; font-weight:700
+font-family: 'Roboto', sans-serif; font-weight:700*/
+
+/* 민속촌소개 내용 영역*/
+
+#content .content_area{width: 1200px; margin: 0 auto;}
+#content .content_area h3{font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 50px; 
+    color: #333; padding-top: 100px; text-align: center; position: relative;}
+#content .content_area h3::before{content: ''; display: block; position: absolute; top: 170px; left: 460px; width: 280px; height: 5px; background: rgb(252, 121, 0);}
+#content .content_area .slogan{display: block; font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 22px; 
+    color: #666; text-align: center; padding: 50px 0 100px 0;}
+#content .content_area  h4{font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 40px; text-align: center; margin: 100px 0;}
+#content .content_area .drama .poster{margin: 0 50px;}
+#content .content_area .history_map{width: 1200px; height: 1700px; background: url(../images/content3/history_map.jpg) center no-repeat; margin: 100px 0 250px 0;}
+#content .content_area .history_map .drama_wrap{position: relative;}
+#content .content_area .history_map .drama_wrap dl{width: 400px; float: left; text-align: right; margin-left: 130px;}
+#content .content_area .history_map .drama_wrap dl dt{font-family: 'Noto Sans KR', sans-serif; font-weight:700; font-size: 44px;}
+#content .content_area .history_map .drama_wrap dl .drama_slogan{font-weight: 700; font-size: 22px; margin-bottom: 5px;}
+#content .content_area .history_map .drama_wrap dl dd{line-height: 1.5em;}
+#content .content_area .history_map .drama_wrap li ul{float: right; width: 500px; margin-left: 150px; overflow: hidden;}
+#content .content_area .history_map .drama_wrap li ul li{float: left; width: 200px; margin: 0 20px 25px 0; overflow: hidden;}
+#content .content_area .history_map .drama_wrap li ul li img{float: left;}
+#content .content_area .history_map .drama_wrap li ul li dl{float: right; width: 110px; text-align: left; margin: 0;}
+#content .content_area .history_map .drama_wrap li ul li dl dt{font-size: 16px;}
+#content .content_area .history_map .drama_wrap li ul li dl dd{font-size: 13px;}
+#content .content_area .history_map .drama_wrap .drama_2019{position: absolute; overflow: hidden; top: 65px;}
+#content .content_area .history_map .drama_wrap .drama_2008{position: absolute; overflow: hidden; top: 565px;}
+#content .content_area .history_map .drama_wrap .drama_2005{position: absolute; overflow: hidden; top: 965px;}
+#content .content_area .history_map .drama_wrap .drama_1996{position: absolute; overflow: hidden; top: 1265px;}
+#content .content_area .history_map .drama_wrap .drama_1983{position: absolute; overflow: hidden; top: 1565px;}

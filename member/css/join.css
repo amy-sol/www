@@ -1,0 +1,90 @@
+#wrap{
+    background: url(../../images/pattern.jpg) center center repeat-x;
+    background-size: cover;
+    background-attachment: fixed
+}
+.inner_wrap{
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 100px;
+    overflow: hidden; background: #fff;
+}
+#wrap form{
+    margin-bottom: 100px;
+}
+#wrap .logo{
+    width: 300px;
+    height: 50px;
+    display: block;
+    margin: 100px auto;
+    background: url(../images/logo.jpg) 0 0 no-repeat;
+}
+#wrap h3{
+    font-size: 24px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+#wrap h4{
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#wrap .policy{
+    overflow-y: scroll;
+    height: 20px;
+    padding: 30px 20px;
+    background: #f7f7f7;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+#wrap .check{
+    margin-bottom: 60px;
+    font-size: 16px;
+    color: #333;
+}
+input[type=checkbox] + label{
+    cursor: pointer
+}
+input[type=checkbox] + label::before { 
+    display: inline-block; 
+    width: 18px; 
+    height: 18px; 
+    background-color: transparent; 
+    border: 2px solid #fc7900;
+    border-radius: 50%; 
+    content:'';
+    margin: 0px 15px -6px 0px ;
+} 
+/* 체크박스 눌렀을 때 */
+input[type=checkbox]:checked + label::before{
+    background: #fff url(../images/checked_bg.png) center center no-repeat;
+    border: 2px solid #fc7900;
+} input[type=checkbox]{
+    display: none;
+}
+
+/* 버튼 */
+.button a,.button button {
+    width: 250px;
+    text-align: center;
+    display: inline-block;    
+    margin-right: 10px;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 16px;
+}
+.button .allcheck{border: 2px solid #fc7900; color: #fc7900;}
+
+.button .check_agree{
+    background: #fc7900;
+    border: 2px solid #fc7900;
+}
+.button .cancel{
+    margin-right: 0;
+    background: #333;
+    border: 2px solid #333;
+}

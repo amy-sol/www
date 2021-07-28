@@ -1,0 +1,182 @@
+/* 와이드 pc  */
+
+	
+.videoBox{width:100%;height:100%; overflow:hidden; position:fixed;}
+#videoBG {
+   position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100; /*다른요소보다 아래에 위치*/
+  
+}
+
+#imgBG{
+	position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+   display:none
+}
+.videoBox .visual_logo{position: absolute; top: 25%; left: 35%; width: 30%;}
+
+.down{display: block; text-indent: -9999px; position: absolute; overflow: hidden; width: 60px; height: 120px;
+	 left:50%; margin-left: -30px; bottom: 30%; background: url(../images/arrow.png);
+	animation:ani 1.2s infinite alternate;}
+   @keyframes ani{
+      0%{
+          bottom: 150px;
+      }
+      100%{
+          bottom: 170px;
+      }
+  }	
+	
+
+
+
+#content{width: 100%;}
+#content section{padding: 100px 0; position: relative; z-index: 20;}
+#content .story{background: #000000; width: 100%; top: -25px;}
+#content h3{font-size: 60px; font-family: 'Pacifico', cursive; text-align: center; margin-bottom: 50px;}
+#content .title_detail{display: block; width: 80%; margin-bottom: 50px; text-align: center; color: #fff; font-family: 'David Libre', serif; padding: 0 10%;}
+#content .story h3{color: #fff;}
+#content .story .story_img_box{overflow: hidden; width: 80%; margin: 0 10%;}
+#content .story .story_img_box li:nth-child(1){float: left; width: 48%; margin-right: 2%; box-sizing: border-box;}
+#content .story .story_img_box li:nth-child(2){float: left; width: 24%; margin-right: 2%; box-sizing: border-box;}
+#content .story .story_img_box li:nth-child(3){float: left; width: 24%; box-sizing: border-box;}
+#content .story .story_img_box img{width: 100%;}
+
+#content .characters{width: 90%; margin: 50px 5%; background: rgba(0, 0, 0, .8);}
+#content .characters h3{color: #fff;}
+#content .characters .characters_box{overflow: hidden; width: 90%; margin: 0 5%;}
+#content .characters .characters_box a{display: block; width: 50%; float: left;}
+#content .characters .characters_box a:hover img{ filter: grayscale(0);}
+#content .characters .characters_box .cruella_change{display: none;}
+#content .characters .characters_box .cruella_img{float: left; width: 100%; filter: grayscale(1);  transition: all .25s ease-in;}
+#content .characters .characters_box .characters_box_right{float: left; width: 50%; overflow: hidden;}
+#content .characters .characters_box .characters_box_right img{width: 100%; filter: grayscale(1);  transition: all .25s ease-in;}
+
+
+#content .movie{width: 100%; margin: 200px 0 0 0; background: rgba(255, 255, 255, .9); padding: 50px 0;}
+#content .movie h3{color: #000000; position: relative; text-align: left; margin-left: 35%;}
+#content .movie .movie_img{overflow: hidden; width: 90%; margin: 0 5%;}
+#content .movie .movie_img li{float: left; width: 22%; margin: 10px 2% 0 2%;}
+#content .movie .movie_img a{display: block; transition: all .25s;}
+#content .movie .movie_img img{width: 100%; filter: grayscale(1); transition: all 0.3s ease-in}
+#content .movie .movie_img span{display: block; width: 100%; font-weight: 700; text-align: center; margin: 15px 0; position: relative;}
+#content .movie .movie_img span::after{background: none repeat scroll 0 0 transparent; bottom: 0; content: ""; display: block; height: 3px; left: 50%; position: absolute; top: 30px; background: red; transition: all 0.3s ease 0s, left 0.3s ease 0s; width: 0;}
+#content .movie .movie_img a:hover span::after {width: 64%; left: 18%;}
+#content .movie .movie_img a:hover img{filter: grayscale(0); transform: scale(1.1);}
+#content .movie .movie_png{position: absolute; bottom: -300px; left: 70%; width: 25%; opacity: 0; transition: all .5s}
+#content .movie .boxMove{bottom: 0; opacity: 1}
+
+#content .interview{width: 90%; margin: 30px 5%; background: rgba(255, 255, 255, .8);}
+#content .interview h3{color: #000000;}
+#content .interview .interview_box{overflow: hidden;}
+#content .interview .interview_box li{width: 23.33%; margin: 0 5%; float: left;}
+#content .interview .interview_box li:hover .youtube{filter: grayscale(0); top: 30px; left: 30%;width: 40%;}
+#content .interview .interview_box li:hover img{filter: grayscale(.8);}
+#content .interview .interview_box li a{display: block; position: relative;}
+#content .interview .interview_box li a .youtube{position: absolute; top: 40px; left: 35%; width: 30%; transition: all .25s ease-in;}
+#content .interview .interview_box img{width: 100%; transition: all .25s ease-in;}
+#content .interview .interview_box span{display: block; width: 80%; padding: 20px 10%; background: #fff; height: 130px;}
+
+#content .gallery{background: url(../images/gallery_wall.jpg)center no-repeat; height: 500px; 
+   background-size: cover;}
+#content .gallery h3{color: #fff;}
+
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	#content{ width:auto}
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+#content{ width:auto; margin:0;}
+
+#content .story .story_img_box li:nth-child(1){float: left; width: 100%; box-sizing: border-box;}
+#content .story .story_img_box li:nth-child(2){float: left; width: 47.5%; margin-right: 5%; margin-top: 30px; box-sizing: border-box;}
+#content .story .story_img_box li:nth-child(3){float: left; width: 47.5%; margin-top: 30px; box-sizing: border-box;}
+
+#content .characters img{filter: grayscale(0);}
+#content .characters .characters_box .cruella_change{display: block; width: 100%; filter: grayscale(0);  transition: all .25s ease-in;}
+#content .characters .characters_box>a:nth-child(2){width: 100%; float: none;}
+#content .characters .characters_box .cruella_img{display: none;}
+#content .characters .characters_box .characters_box_right{float: none; overflow: hidden; width: 100%;}
+#content .characters .characters_box .characters_box_right img{filter: grayscale(0);}
+
+
+#content .movie h3{text-align: center; margin-left: 0;}
+#content .movie .movie_img li:nth-child(1){float: left; width: 47.5%; margin: 10px 5% 10px 0;}
+#content .movie .movie_img li:nth-child(2){float: left; width: 47.5%; margin: 10px 0;}
+#content .movie .movie_img li:nth-child(3){display: none;}
+#content .movie .movie_img a{display: block; transition: all .25s;}
+#content .movie .movie_img img{width: 100%; filter: grayscale(0); transition: all 0.3s ease-in}
+#content .movie .movie_img a:hover img{filter: grayscale(0); transform: scale(1);}
+#content .movie .movie_png{display: none;}
+
+#content .interview .interview_box li{width: 45%; margin: 0 2.5%; float: left;}
+#content .interview .interview_box li:nth-child(1){display: none;}
+#content .interview .interview_box li:nth-child(2){margin-bottom: 20px;}
+#content .interview .interview_box li:hover .youtube{top: 40px; left: 35%; width: 30%; transform: scale(1);}
+#content .interview .interview_box li:hover img{filter: grayscale(0);}
+#content .interview .interview_box span{height: 70px;}
+}
+
+
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+   .feature .button div{width: 40px;height: 40px;}
+	.feature .button div a {background-size: 20px 20px;}
+
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+	.videoBox .visual_logo{position: absolute; top: 35%; left: 25%; width: 50%;}
+   #content section{padding: 80px 0;}
+   #content .story .story_img_box li:nth-child(2){display: none;}
+#content .story .story_img_box li:nth-child(3){display: none;}
+
+#content .characters .characters_box .cruella_change{display: none}
+#content .characters .characters_box>a:nth-child(1){width: 100%; float: none;}
+#content .characters .characters_box .cruella_img{display: block; filter: grayscale(0);}
+#content .characters .characters_box .characters_box_right a:nth-child(1){width: 100%; margin-top: 20px;}
+#content .characters .characters_box .characters_box_right a:nth-child(2){display: none;}
+#content .characters .characters_box .characters_box_right a:nth-child(3){display: none;}
+#content .characters .characters_box .characters_box_right a:nth-child(4){display: none;}
+
+#content .movie .movie_img li:nth-child(1){float: none; width: 90%; margin: 0 5% 30px 5%;}
+#content .movie .movie_img li:nth-child(2){float: none; width: 90%; margin: 0 5%;}
+
+#content .interview .interview_box li{width: 90%; margin: 0 5%; float: none;}
+#content .interview .interview_box li:hover .youtube{top: 30px; left: 35%; width: 30%; transform: scale(1);}
+#content .interview .interview_box span{height: 70px;}
+
+}
+
+/* 소형 모바일 */
+@media screen and (max-width:480px) {
+	.feature .fInner {width: 95%;}
+	.feature li {width: 300px; height: 300px;	}
+	.feature li span {font-size: 1.1667em;	}
+	.feature .button {display: none;}
+}
+
+
+

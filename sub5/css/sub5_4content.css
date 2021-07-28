@@ -1,0 +1,35 @@
+/*font-family: 'Nanum Gothic', sans-serif; font-weight:700
+font-family: 'Nanum Myeongjo', serif; font-weight:700
+font-family: 'Noto Sans KR', sans-serif; font-weight:700
+font-family: 'Roboto', sans-serif; font-weight:700*/
+
+/* 민속촌소개 내용 영역*/
+
+#content .content_area{width: 1200px; margin: 0 auto;}
+#content .content_area h3{font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 50px; 
+    color: #333; padding-top: 100px; text-align: center; position: relative;}
+#content .content_area h3::before{content: ''; display: block; position: absolute; top: 170px; left: 529px; width: 143px; height: 5px; background: rgb(252, 121, 0);}
+#content .content_area .workshop h3::before{content: ''; display: block; position: absolute; top: 170px; left: 549px; width: 101px; height: 5px; background: rgb(252, 121, 0);}
+#content .content_area .slogan{display: block; font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 22px; 
+    color: #666; text-align: center; padding: 50px 0 100px 0;}
+#content .content_area  h4{font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 40px; text-align: center; margin: 100px 0;}
+#content .content_area .main_img{margin: 0 50px;}
+#content .content_area .souvenir_shop li{width: 1100px;  margin: 0 50px 150px 50px;}
+#content .content_area .souvenir_shop dl{font-family: 'Nanum Gothic', sans-serif; font-weight:400; color: #333;}
+#content .content_area .souvenir_shop dt{font-size: 22px; font-weight: 700; margin: 20px 0 40px 0; position: relative;}
+#content .content_area .souvenir_shop dt::before{content: ''; display: block; position: absolute; top: 42px; width: 1100px; height: 1px; background: #ccc;}
+#content .content_area .souvenir_shop dd{font-size: 16px; margin-bottom: 8px; text-align: justify; line-height: 1.5em;}
+#content .content_area .souvenir_shop .info{margin-bottom: 30px; font-weight: 700;}
+
+
+
+
+#content .content_area .list{width: 1200px; overflow: hidden;}
+#content .content_area .list li{float: left; width: 500px; height: 650px; margin: 0 50px;}
+#content .content_area .list img{padding: 0;}
+#content .content_area .list dl{font-family: 'Nanum Gothic', sans-serif; font-weight:400; color: #333;}
+#content .content_area .list dt{font-size: 22px; font-weight: 700; margin: 20px 0 40px 0; position: relative;}
+#content .content_area .list dt span{font-size: 18px; color: #fc7900;}
+#content .content_area .list dt::before{content: ''; display: block; position: absolute; top: 42px; width: 500px; height: 1px; background: #ccc;}
+#content .content_area .list dd{font-size: 16px; margin-bottom: 8px; text-align: justify; line-height: 1.5em;}
+

@@ -1,0 +1,37 @@
+/*font-family: 'Nanum Gothic', sans-serif; font-weight:700
+font-family: 'Nanum Myeongjo', serif; font-weight:700
+font-family: 'Noto Sans KR', sans-serif; font-weight:700
+font-family: 'Roboto', sans-serif; font-weight:700*/
+
+/* 민속촌소개 내용 영역*/
+
+#content .content_area{width: 1200px; margin: 0 auto;}
+#content .content_area h3{font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 50px; 
+    color: #333; padding-top: 100px; text-align: center; position: relative;}
+#content .content_area h3::before{content: ''; display: block; position: absolute; top: 170px; left: 460px; width: 280px; height: 5px; background: rgb(252, 121, 0);}
+#content .content_area .slogan{display: block; font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 22px; 
+    color: #666; text-align: center; padding: 50px 0 100px 0;}
+#content .content_area .attraction_list{overflow: hidden; margin: 0 0 150px 47px;}
+#content .content_area .attraction_list li{width: 350px; height: 350px; border: 1px solid #ccc; margin: 0 25px 25px 0px; float: left;}
+#content .content_area .attraction_list li a{display: block; width: 350px;  height: 350px; transition: all .25s ease-in; overflow: hidden;}
+#content .content_area .attraction_list li a:hover{ box-shadow: 10px 10px 10px 0px #ccc;}
+#content .content_area .attraction_list li a p{display: block; height: 40px; padding: 30px; font-family: 'Noto Sans KR', sans-serif; font-weight:700; font-size: 25px;transition: all .25s ease-in;}
+#content .content_area .attraction_list li a:hover p{color: #fff; background: #fc7900;}
+
+#content .content_area .attraction .modal_box{position: fixed; left: 0; top: 0; z-index: 1000; width: 100%; height: 100%; background-color: #3a3e50; opacity: 0.5; display: none;}
+#content .content_area .attraction .modal_popup .popup_attraction{position: fixed; top: 50%; left: 50%; margin: -350px 0 0 -350px; width: 700px; height: 700px; background: #fff; box-shadow: 1px 3px 7px 0px #666; z-index: 1001; display: none;}
+#content .content_area .attraction .modal_popup .popup_attraction .close_btn{position: absolute; top: 25px; left: 640px; display: block; text-indent: -999px; overflow: hidden; width: 32px; height: 32px; padding: 9px 9px; background: url(../images/content1/cancel.png) no-repeat;}
+#content .content_area .attraction .modal_popup .popup_attraction .attraction_int{overflow: hidden;}
+#content .content_area .attraction .modal_popup .popup_attraction .title_img{display: block; float: left; width: 310px; margin: 25px 20px 0 30px; border-radius: 7px;}
+#content .content_area .attraction .modal_popup .popup_attraction .popup_title{display: block; float: left; font-family: 'Noto Sans KR', sans-serif; font-weight:700; font-size: 24px; margin: 75px 20px 0 0; width: 290px; text-align: center; line-height: 34px;}
+#content .content_area .attraction .modal_popup .popup_attraction .popup_title span{color: #fc7900; font-size: 18px;}
+#content .content_area .attraction .modal_popup .popup_attraction ul{overflow: hidden; margin: 10px 20px;}
+#content .content_area .attraction .modal_popup .popup_attraction li{float: left; padding: 15px; width: 280px; height: 160px; background: #fff;  border-radius: 7px; box-shadow: 1px 3px 7px 0 #ccc; margin:10px 10px 10px 10px;}
+#content .content_area .attraction .modal_popup .popup_attraction li:nth-child(2){margin-right: 0;}
+#content .content_area .attraction .modal_popup .popup_attraction li img{display: block; margin: 0 auto;}
+#content .content_area .attraction .modal_popup .popup_attraction li p{display: block; text-align: center; margin-top: 15px;}
+#content .content_area .attraction .modal_popup .popup_attraction dl{margin: 0 30px; overflow: hidden; background: #fff;  border-radius: 7px; box-shadow: 1px 3px 7px 0 #ccc;}
+#content .content_area .attraction .modal_popup .popup_attraction dt{text-align: center; font-size: 23px; margin: 15px auto;}
+#content .content_area .attraction .modal_popup .popup_attraction dd{float: left; margin-bottom: 10px;}
+#content .content_area .attraction .modal_popup .popup_attraction dd img{display: block; margin: 5px 35px 10px 35px;}
+#content .content_area .attraction .modal_popup .popup_attraction dd p{display: block; text-align: center;}

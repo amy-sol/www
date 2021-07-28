@@ -1,0 +1,175 @@
+/*font-family: 'Nanum Gothic', sans-serif; font-weight:700
+font-family: 'Nanum Myeongjo', serif; font-weight:700
+font-family: 'Noto Sans KR', sans-serif; font-weight:700
+font-family: 'Roboto', sans-serif; font-weight:700*/
+
+/* 민속촌소개 내용 영역*/
+
+#content .content_area{width: 1200px; margin: 0 auto;}
+#content .content_area h3{font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 50px; 
+    color: #333; padding-top: 100px; text-align: center; position: relative;}
+#content .content_area .history h3::before{content: ''; display: block; position: absolute; top: 170px; left: 558px; width: 90px; height: 5px; background: rgb(252, 121, 0);}
+#content .content_area .history .slogan{display: block; font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 22px; 
+    color: #666; text-align: center; padding: 50px 0 100px 0;}
+
+    /* list css */
+/*font-family: 'Nanum Gothic', sans-serif; font-weight:700
+font-family: 'Nanum Myeongjo', serif; font-weight:700
+font-family: 'Noto Sans KR', sans-serif; font-weight:700
+font-family: 'Roboto', sans-serif; font-weight:700*/
+
+/* 민속촌소개 내용 영역*/
+
+#content .content_area{width: 1100px; margin: 100px auto; position: relative;}
+#content .content_area h3{font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 50px; 
+    color: #333; padding-top: 100px; text-align: center; position: relative;}
+#content .content_area .history h3::before{content: ''; display: block; position: absolute; top: 170px; left: 558px; width: 90px; height: 5px; background: rgb(252, 121, 0);}
+#content .content_area .history .slogan{display: block; font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 22px; 
+    color: #666; text-align: center; padding: 50px 0 100px 0;}
+
+.content_area .scale{position: absolute; top: 0; left: 125px; padding: 5px} 
+
+#list_search{overflow: hidden; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin: 5px 0;}
+#list_search1{margin-top: 2px; float: left}
+    
+#list_search .list_search_group{float: right; overflow: hidden}
+#list_search .list_search_group div{float: left}
+#list_search #list_search4{margin-left: 3px}
+#list_search #list_search4 input{padding: 5px}
+#list_search #list_search5{margin-left: 5px; margin-top: 1px;}
+#list_search #list_search5 input{padding: 3px 10px; background: none; border: 2px solid #fc7900; color: #fc7900; border-radius: 2px; font-weight: 500;}
+    
+#list_search select{padding: 5px}
+    
+.list_item{overflow: hidden; margin: 10px 0; border: solid 3px #eeeeee; border-radius: 25px; transition: all .2s ease-in;}
+.list_item:hover{ border: solid 3px #fc7900;}
+.list_item a{position: relative;}
+.list_item1{overflow: hidden; }
+.list_item1 img{width:150px; height:150px; float: left;}
+.list_item1 .subject{display: block; padding: 50px 20px; font-size: 22px; font-weight: 600; float: left;width: 850px;}
+.list_item a .list_itemwrap{position: absolute; top: 110px; left: 160px; overflow: hidden; width: 400px; color: #666;}
+.list_item2{margin: 0 15px; float: left;}
+.list_item3{margin: 0 15px; float: left; position: relative;}
+.list_item3::before{position: absolute; content: ''; display: block; width: 16px; height: 16px; top: 5px; left: -20px; background: url(../images/user.png) no-repeat;}
+.list_item4{margin: 0 15px; float: left; position: relative;}
+.list_item4::before{position: absolute; content: ''; display: block; width: 16px; height: 16px; top: 5px; left: -20px; background: url(../images/calendar.png) no-repeat;}
+.list_item5{margin: 0 15px; float: left; position: relative;}
+.list_item5::before{position: absolute; content: ''; display: block; width: 16px; height: 16px; top: 5px; left: -20px; background: url(../images/eye.png) no-repeat;}
+    
+    
+#page_button{font-family: 'Nanum Gothic', sans-serif; overflow: hidden; padding-top: 30px; margin: 0 auto;}
+#page_num{float: left; width: 80%; text-align: center; padding-top: 6px}
+#button{float: right; overflow: hidden; margin: 0 auto; width: 300px;}
+#button a{display: block;  float: left;  width: 100px; border-radius: 25px; font-size: 18px; font-weight: 600;
+        text-align: center;  color: #fc7900;  padding: 10px;  margin-left: 10px; border: 2px solid #fc7900; transition: all .2s ease-in;}
+#button a:hover{background: #fc7900; color: #fff;}
+    
+
+.content_area #write_form{width: 1100px; margin: 0 auto 50px; font-family: 'Nanum Gothic', sans-serif; font-size: 16px;}
+.col1{margin: 5px 0; width: 100px; font-weight: 700; background: #fff; float: left; text-align: center; margin-right: 10px}
+.col2{margin: 5px 0; float: left}
+.col3{float: right; padding-top: 15px}
+
+#write_row1{border-bottom: 1px solid #ccc; border-top: 3px solid #fc7900; overflow: hidden;font-family: 'Nanum Gothic', sans-serif; font-size: 18px;}
+#write_row1 div{float: left;}
+#write_row1 .col1{text-align: center;width: 100px; margin-right: 20px; padding: 20px;}
+#write_row1 .col3{float: right;padding: 20px;}
+#write_row1 .col2{padding: 20px;}
+#write_row2{overflow: hidden;border-bottom: 1px solid #ccc; }
+#write_row2 .col1{text-align: center; width: 100px;font-family: 'Nanum Gothic', sans-serif; font-size: 18px;margin-right: 20px; padding: 20px;  }
+#write_row2 div{float: left;}
+#write_row2 .col2 input{outline: none; border: none;margin-top: 12px; background: #f7f7f7; width: 900px; padding: 10px; font-family: 'Nanum Gothic', sans-serif; font-size: 16px; line-height: 1.5em;}
+#write_row3{overflow: hidden;border-bottom: 1px solid #ccc; }
+#write_row3 .col1{text-align: center;width: 100px;font-family: 'Nanum Gothic', sans-serif; font-size: 18px;margin-right: 20px; padding: 20px; }
+#write_row3 div{float: left;}
+#write_row3 .col2 textarea{outline: none; border: none;margin: 12px 0; background: #f7f7f7; width: 900px; padding: 10px; font-family: 'Nanum Gothic', sans-serif; font-size: 16px; line-height: 1.5em;}
+.img_wrap ul{overflow: hidden; padding: 20px;font-family: 'Nanum Gothic', sans-serif;}
+#write_row6{border-bottom: 1px solid #999;}
+.img_wrap li{float: left; margin-right: 20px;}
+.img_wrap .col1{position: relative; padding-left: 10px;}
+.img_wrap .col1::before{content: ''; width: 8px; height: 8px; background: #fc7900;
+    position: absolute; top: 8px; left: 0;}
+
+
+#write_button { margin-top: 15px; width: 260px; margin: 50px auto; text-align: center;
+        overflow: hidden }
+    
+#write_button input { display: block;  float: right;color: #fc7900; width: 115px;
+        padding: 10px 0;  border-radius: 25px; background: #fff; font-weight: 600;
+        border: none;  outline: none; font-size: 18px; text-align: center; cursor: pointer;
+        border: 2px solid #fc7900; transition: all .2s ease-in;}
+#write_button input:hover{background: #fc7900; color: #fff;}
+    
+#write_button a {
+         display: inline;
+        float: left;
+        color: #fc7900;
+        width: 110px;
+        padding: 10px 0;
+        margin-right: 10px;
+        border-radius: 25px;
+        border: 2px solid #fc7900; transition: all .2s ease-in; font-weight: 600;
+    }
+#write_button a:hover{background: #fc7900; color: #fff;}
+    
+    
+    
+    #view_title {
+        height: 20px;
+        padding: 15px 0 15px 2%;
+        font-weight: 700;    
+        background-color: #fc7900;
+        margin: 10px 0 3px;
+        color: #fff;
+        border-radius: 5px;
+        overflow: hidden}
+    
+    
+    #view_title1 {
+        float: left;
+        width: 70%;
+    }
+    #view_title2 {
+        float: left;
+        width: 28%;
+        text-align: right;
+    }
+    
+    
+    #view_content {
+        width: 96%;
+        min-height: 200px;
+        padding: 15px;
+        margin-bottom: 30px;
+        overflow: hidden;
+        line-height: 150%;
+        border-bottom: solid 1px #cccccc;
+        text-align: justify
+    }
+
+    #view_content img{display: block; margin: 0 auto;}
+    
+    #view_button {
+        margin: 0 auto;
+        width: 520px;   
+        border-radius: 5px;
+        font-weight: bold;
+        text-align: center;
+        overflow: hidden
+    }
+    #view_button a {
+        display: inline;
+        float: left;
+        color: #fc7900;
+        width: 110px;
+        padding: 10px 0;
+        margin-right: 10px;
+        border-radius: 25px;
+        border: 2px solid #fc7900; transition: all .2s ease-in;
+    }
+    #view_button a:nth-child(4){margin-right: 0;}
+    #view_button a:hover{background: #fc7900; color: #fff;}
+    
+
+
+    

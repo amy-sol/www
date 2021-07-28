@@ -1,0 +1,179 @@
+
+
+/* feature film 영역 */
+.feature .inWrap {
+	position: relative;
+}
+
+.feature .fInner {
+	margin: 0 auto;	width: 90%; overflow: hidden;
+	padding-bottom: 1%;
+}
+
+.feature li {
+	float: left; width: 400px; height:600px; margin-bottom: 4em; list-style: none
+}
+
+.feature li a {
+	position: relative;
+	display: block; background: #f0f0f0; height: 100%; margin: 0 3%;
+	text-align: center;
+}
+
+
+.feature li:nth-child(1) a{
+	background: url(../images/fashion1.png) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(2) a{
+	background: url(../images/fashion2.png) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(3) a{
+	background: url(../images/fashion3.png) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(4) a{
+	background: url(../images/fashion4.png) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(5) a{
+	background: url(../images/fashion5.png) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(6) a{
+	background: url(../images/fashion6.png) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(7) a{
+	background: url(../images/fashion7.png) center center no-repeat;
+	background-size: cover;
+}
+
+
+.feature .swiper-pagination {
+	position: relative;
+	margin-top: 20px;
+}
+.feature .swiper-pagination-progress .swiper-pagination-progressbar{
+	background: rgba(255, 0, 0, 1);
+}
+
+.feature .button div {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background: rgba(255, 0, 0, 1);
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	top: 50%;
+	transition: all 0.2s
+}
+.feature .button div:active {
+	transform: translate(2px,2px);
+}
+.feature .button a {
+	display: block;
+	height: 100%;
+}
+
+.feature .back a {
+	background: url(../images/back.svg) center center no-repeat;
+	background-size: 30px 30px;
+    text-indent: -999px; overflow: hidden;
+}
+
+.feature .next a {
+	background: url(../images/next.svg) center center no-repeat;
+	background-size: 30px 30px;
+    text-indent: -999px; overflow: hidden;
+}
+
+.feature .back {
+	left: 3%;
+}
+.feature .next {
+	right: 3%;
+}
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+
+	.feature .button div{
+		width: 40px;
+		height: 40px;
+	}
+	.feature .button div a {
+		background-size: 20px 20px;
+	}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+	.feature .fInner {
+		margin: 0 auto;	width: 85%; overflow: hidden;
+		padding-bottom: 1%;
+	}
+	.feature li {
+		width: 250px; height: 375px;
+	}
+	.feature li:nth-child(1) a{
+		background: url(../images/fashion1_640.png) center center no-repeat;
+		background-size: cover;
+	}
+	.feature li:nth-child(2) a{
+		background: url(../images/fashion2_640.png) center center no-repeat;
+		background-size: cover;
+	}
+	.feature li:nth-child(3) a{
+		background: url(../images/fashion3_640.png) center center no-repeat;
+		background-size: cover;
+	}
+	.feature li:nth-child(4) a{
+		background: url(../images/fashion4_640.png) center center no-repeat;
+		background-size: cover;
+	}
+	.feature li:nth-child(5) a{
+		background: url(../images/fashion5_640.png) center center no-repeat;
+		background-size: cover;
+	}
+	.feature li:nth-child(6) a{
+		background: url(../images/fashion6_640.png) center center no-repeat;
+		background-size: cover;
+	}
+	.feature li:nth-child(7) a{
+		background: url(../images/fashion7_640.png) center center no-repeat;
+		background-size: cover;
+	}
+
+}
+
+/* 소형 모바일 */
+@media screen and (max-width:480px) {
+
+	.feature .fInner {
+		width: 80%;
+	}
+	
+}
+
+
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	
+}

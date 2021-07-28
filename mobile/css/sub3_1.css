@@ -1,0 +1,21 @@
+.title_area{margin-top: 50px; position: relative;}
+.title_area_box{height: 150px; overflow: hidden; background: url(../images/sub3_main.jpg) center no-repeat; background-size: cover;}
+h2{position: absolute; top: 60px; width: 100%; text-align: center; color: #fff; font-size: 22px;}
+#content{width: 100%; margin: 0 auto;}
+
+#content h3{width: 140px; margin: 0 auto; font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 24px; 
+    color: #333; padding-top: 50px; text-align: center; position: relative;}
+#content h3::before{content: ''; display: block; position: absolute; top: 85px; left:0; width: 140px; height: 4px; background: rgb(252, 121, 0);}
+#content .slogan{display: block; font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 15px; 
+    color: #666; text-align: center; padding: 20px 0 50px 0;}
+
+#content .josun_village .big{width: 98%; margin: 0 1%;}
+#content .josun_village .gallery ul{width: 100%; overflow: hidden; margin-bottom: 50px; position: relative;}
+#content .josun_village .gallery li{float: left; width: 25%; padding: 10px; box-sizing: border-box;}
+#content .josun_village .gallery li img{width: 100%;}
+#content .josun_village .gallery li a{display: block; box-shadow: 5px 5px 10px 0 #ccc; transition: all .15s ease-in; filter: grayscale(.8);}
+#content .josun_village .gallery li a:hover{box-shadow: 5px 5px 10px 0 #999; transform: scale(1.1); filter: none;}
+#content .josun_village .comment{width: 90%; display: block; text-align: justify; font-size: 15px; line-height: 24px; margin: 0 5% 50px 5%; }
+#content .josun_village .comment span{font-weight:700; font-size: 16px; color: #fc7900;}
+#content .josun_village .concept{width: 98%; margin: 0 1% 50px 1%;}
+    

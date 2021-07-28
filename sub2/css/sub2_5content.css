@@ -1,0 +1,63 @@
+/*font-family: 'Nanum Gothic', sans-serif; font-weight:700
+font-family: 'Nanum Myeongjo', serif; font-weight:700
+font-family: 'Noto Sans KR', sans-serif; font-weight:700
+font-family: 'Roboto', sans-serif; font-weight:700*/
+
+/* 할인프로모션 내용 영역*/
+
+#content .content_area{width: 1200px; margin: 0 auto;}
+#content .content_area h3{font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 50px; 
+    color: #333; padding-top: 100px; text-align: center; position: relative;}
+#content .content_area h3::before{content: ''; display: block; position: absolute; top: 170px; left: 534px; width: 138px; height: 5px; background: rgb(252, 121, 0);}
+#content .content_area .counseler h3::before{content: ''; display: block; position: absolute; top: 170px; left: 450px; width: 298px; height: 5px; background: rgb(252, 121, 0);}
+#content .content_area .slogan{display: block; font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 22px; 
+    color: #666; text-align: center; padding: 50px 0 100px 0;}
+#content .content_area section{margin-bottom: 150px;}
+#content .content_area h4{text-align: center; font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 40px; margin: 100px;}
+#content .content_area .title_img{margin: 0 50px 0 50px;}
+
+/*Q&A*/
+.faq{width:1100px; border-bottom:3px solid #fc7900; border-top:3px solid #fc7900; margin: 100px 50px 0 50px;}  
+.faq .qanda_title{position:relative; margin:30px;}  
+.faq .qanda_title span{display: block; font-size: 24px; font-weight: 700; text-align: center;}
+.faq .qanda_title .all{position:absolute;top: 5px; right:10px; color:#333; text-decoration:none;}  
+.faq ul li i{color: #fc7900;}
+.faq .q{border-top:1px solid #ccc; position: relative; margin: 10px;}  
+.faq .q a.trigger{display:block; margin:20px 20px; background:#fafafa;}  
+.faq .hide .q a.trigger{background:none}  
+.faq .q a.trigger:hover,  
+.faq .q a.trigger:active,  
+.faq .q a.trigger:focus{background:#feeddd; color:#000} 
+.faq .q span{display: block; position: absolute; right: 15px; top:18px} 
+.faq .a{width: 1020px; padding:10px 48px 10px 32px;line-height:1.5; text-align:justify; line-height: 2em;
+    padding-bottom:10px; margin-top:0px; margin-bottom:0px;
+    padding-top:10px; display: none;} 
+
+
+    /* 문의하기 작성 폼 */
+
+#content #contactForm{ border-top: 2px solid #fc7900; margin: 80px 50px 100px;}
+#content .row{ overflow: hidden; border-bottom: 1px solid #ccc;}
+#content .row>ul>li{ float: left; font-size: 16px; padding: 35px 0;}
+#content .row>ul .tit{ font-weight: 600; width: 200px; padding: 45px 0 45px 30px;}
+#content .row>ul .tit label{ position: relative;}
+#content .row>ul .tit label::after{ content: '*'; display: block; color: #e60012; font-size: 22px; font-weight: 600;
+    position: absolute; top: -3px; right: -20px;}
+#content .row input,#content .row.con textarea{ width: 840px; padding: 10px 0 10px 20px; border: 1px solid #ccc;
+    outline: 0; font-size: 14px;}
+#content .row>ul .ins{ position: relative;}
+#content .row .help-block{ position: absolute; font-size: 14px; top: 45px; right: 30px; color: #e60012;}
+#content #success{ padding: 15px 30px;}
+#content #success button{ margin-right: 10px;
+    padding: 0px 7px 0px 7px; font-size: 22px; background: #efefef; border-radius: 50%; color: #333;}
+#content #success strong{ font-size: 16px; position: relative; top: -2px; font-weight: 500;}
+#content .buttons{ overflow: hidden; width: 420px; margin: 50px auto 0;}
+#content .buttons li{ float: left; width: 200px;}
+#content .send{ margin-right: 20px;}
+#content .send button{ width: 100%; font-size: 22px; padding: 15px 0; border-radius: 30px; border: 2px solid #fc7900;
+    color: #fc7900; font-weight: 600; outline: none; background: #fff; cursor: pointer; transition: all .15s ease-in;}
+    #content .send button:hover{color: #fff; background: #fc7900;}
+#content .send button:disabled{ background: #fc7900; color: #fff;}
+#content .cancel a{ display: block; padding: 15px 0; text-align: center; font-size: 22px; background: #f9f9f9;
+    border: 2px solid #666; border-radius: 30px; color: #666; font-weight: 600; transition: all .15s ease-in;}
+#content .cancel a:hover{color: #fff; background: #666;}

@@ -1,0 +1,248 @@
+<?
+	session_start();
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공연 · 행사-체험마당</title>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub3common.css">
+    <link rel="stylesheet" href="./css/sub3_4content.css">
+    <script src="https://kit.fontawesome.com/087fc1f4e8.js" crossorigin="anonymous"></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE 9]>  
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <div class="wrap">
+       <!-- 서브 헤더영역 -->
+       <? include "../common/sub_head.html" ?>
+
+        <div class="visual"></div>
+
+        <div class="sub_menu">
+            <h3>공연 · 행사</h3>
+            <ul>
+                <li><a href="./sub3_1.html">행사마당</a></li>
+                <li><a href="./sub3_2.html">공연마당</a></li>
+                <li><a href="./sub3_3.html">사극마당</a></li>
+                <li class="current"><a href="./sub3_4.html">체험마당</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="title_area">
+              <div class="title_area_box">
+                <div class="line_map">
+                    <p><i class="fas fa-home"></i> &gt; 공연 · 행사 &gt; <strong>체험마당</strong></p>
+                </div>
+                <h2>체험마당</h2>
+                <ul class="tab_menu">
+                  <li><a href="#" class="tab tab1">생활문화 체험</a></li>
+                  <li><a href="#" class="tab tab2">전통공예 체험</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="content_area">
+              <section class="living contlist">
+                <h3>생활문화 체험</h3>
+                <p class="slogan">선조들의 삶을 경험할 수 있는 생생한 전통체험</p>
+                <img class="main_img" src="./images/content4/main.jpg" alt="천연염색">
+                <h4>생활문화</h4>
+                <ul class="list">
+                  <li>
+                      <img src="./images/content4/living1.jpg" alt="승마체험">
+                      <dl>
+                          <dt>승마체험 <span>(유료)</span></dt>
+                          <dd class="info">예쁜 포니와 멋진 한라마를 타보며 말과 친해지는 시간을 가져볼 수 있습니다.</dd>
+                          <dd>성인:5,000원(청소년 포함),<br>
+                            아동:4,000원(36개월~초등학생),<br>
+                            동승:7,000원(48개월 미만+보호자)</dd>
+                      </dl>
+                  </li>
+                  <li>
+                    <img src="./images/content4/living2.jpg" alt="천연염색체험">
+                    <dl>
+                        <dt>천연염색체험 <span>(유료)</span></dt>
+                        <dd class="info">천연재료 치자와 소목을 이용해 손수건을 곱게 물들이는 체험입니다.</dd>
+                        <dd>4,000원<br>
+                          운영기간 : 4월 ~ 11월</dd>
+                    </dl>
+                </li>
+                  <li>
+                      <img src="./images/content4/living3.jpg" alt="전통생활체험">
+                      <dl>
+                          <dt>전통생활 체험</dt>
+                          <dd class="info">한국민속촌의 마을을 누비며 다양한 농가의 생활체험을 즐길 수 <br>있습니다.<dd>
+                          <dd>- 농사풍경: 연자방아, 디딜방아, 맷돌돌리기, 키 체험하기, 절구 찧기,<br>
+                            &nbsp; 지게 매어보기 등<br>
+                            
+                            - 생활풍경: 다듬이질하기, 괴나리봇짐 매기, 똥장군져보기,<br>
+                            &nbsp; 애기구덕 져보기,
+                            사판쓰기 등<br>
+                            
+                            - 관아풍경: 관아 형구체험, 옥사 체험 등</dd>
+                      </dl>
+                  </li>
+                  <li>
+                      <img src="./images/content4/living4.jpg" alt="전통생활 시연">
+                      <dl>
+                          <dt>전통생활 시연</dt>
+                          <dd class="info">한국민속촌의 여러 집을 다니며 마을주민들이 직접 옛 생활물품을 <br>만드는 모습을 볼 수 있습니다.</dd>
+                          <dd>- 대나무발 만들기, 둥구미짜기, 멍석짜기, 똬리틀기, 가마니짜기,<br>
+                            &nbsp; 누에실뽑기, 물레돌리기<br>
+
+                            - 운영기간 : 4월~11월</dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <img src="./images/content4/living5.jpg" alt="공통생활 시연">
+                      <dl>
+                          <dt>공동생활 시연</dt>
+                          <dd class="info">한국민속촌의 마을주민들이 모여 공동으로 생활했던 모습을 함께 할 수 있습니다.</dd>
+                          <dd>- 품앗이 시연(생활물품제작 시연 외 주제별 공동작업),<br>
+                            &nbsp; 세시 및 계절별 마을풍속 재현<br>
+                            - 주말, 공휴일 운영
+                            </dd>
+                      </dl>
+                    </li>
+              </ul>
+                <h4>민속놀이</h4>
+                <ul class="list">
+                  <li>
+                    <img src="./images/content4/play1.jpg" alt="그네뛰기">
+                    <dl>
+                        <dt>그네뛰기 <span>장소 : 그네터</span></dt>
+                        <dd class="info">하늘까지 높이 높이~</dd>
+                        <dd>한 사람 또는 두 사람이 그네에 올라타고 앞뒤로 왔다갔다하는 놀이로, 조선시대는 물론 현대에도 사랑받는 대표적인 전통민속놀이입니다. 특히 단옷날에는 명절풍속 중 하나로 남성들의 씨름과 더불어 대표적인 여성들의 놀이로서 성행했습니다.</dd>
+                    </dl>
+                  </li>
+                  <li>
+                    <img src="./images/content4/play2.jpg" alt="윷놀이">
+                    <dl>
+                      <dt>윷놀이 <span>장소 : 관아앞, 그네터</span></dt>
+                      <dd class="info">던져라! 윷가락!</dd>
+                      <dd>4개의 윷가락을 던져 엎어지고 뒤집어진 상태에 따라 윷판 위의 말을 움직여 승부를 겨루는 놀이로, 남녀노소 누구나 쉽게 즐길 수 있어 사랑받는 전통 민속놀이입니다. 윷놀이는 정초에 즐기는 오락 이기도 하지만, 농가에서는 던져진 윷가락을 통해 새해농사의 풍흉을 점치기도 합니다.</dd>
+                    </dl>
+                  </li>
+                  <li>
+                      <img src="./images/content4/play3.jpg" alt="투호놀이">
+                      <dl>
+                        <dt>투호놀이 <span>장소 : 관아앞, 그네터</span></dt>
+                          <dd class="info">화살 던지기 명사수<dd>
+                          <dd>투호는 옛날 궁중이나 양반집에서 즐겨했던 놀이로 동서로 편을 갈라 항아리 속에 화살을 던지는 놀이 입니다. 항아리 속에 화살을 많이 넣은 편이 이기는 방식으로, 화살이 적중하면 춤추며 기뻐하고, 하나도 넣지 못하면 얼굴과 이마에 먹칠을 해서 벌을 주기도 했습니다.</dd>
+                      </dl>
+                  </li>
+              </ul>
+              </section>
+
+              <section class="tradition_art contlist">
+                <h3>전통공예 체험</h3>
+                <p class="slogan">전통방식을 고집하는 장인정신</p>
+                <img class="main_img" src="./images/content4/art_main.jpg" alt="">
+                <h4>전통공예</h4>
+                <ul class="list">
+                  <li>
+                    <img src="./images/content4/art1.jpg" alt="죽기공방">
+                    <dl>
+                        <dt>죽기공방</dt>
+                        <dd>죽기 공방에서는 반짇고리, 죽부인, 소쿠리 등 일상생활 도구를 비롯해 가구, 필기구, 놀이도구 등 장인의 손길이 느껴지는 다양한 대나무 생활용품을 만날 수 있습니다. (죽기 공예 시연)</dd>
+                    </dl>
+                  </li>
+                  <li>
+                    <img src="./images/content4/art2.jpg" alt="목기공방">
+                    <dl>
+                      <dt>목기공방</dt>
+                      <dd>나무 자체의 아름다움과 멋을 느낄 수 있는 목기 공방에서는 홍두깨, 소반, 다듬이 방망이 등 일반 생활용품 제작과정을 직접 볼 수 있습니다. (대패질 체험)</dd>
+                    </dl>
+                  </li>
+                  <li>
+                      <img src="./images/content4/art3.jpg" alt="옹기공방">
+                      <dl>
+                        <dt>옹기공방</dt>
+                          <dd>선조들의 지혜를 엿볼 수 있는 살아있는 그릇, 옹기의 제작과정을 실제로 보고 체험할 수 있습니다. 옹기공방 제품들은 전통방식을 살려 질그릇에 유약을 입혀 정성스레 가마에 구워 만듭니다. (옹기만들기)</dd>
+                      </dl>
+                  </li>
+                  <li>
+                    <img src="./images/content4/art4.jpg" alt="부채공방">
+                    <dl>
+                        <dt>부채공방</dt>
+                        <dd>한국민속촌의 전통부채는 형태가 둥근 방구부채로 나무, 한지 등 전통재료를 이용해 만들고 있습니다.선조들의 멋과 풍류를 느낄 수 있는 부채를 직접 만들어보는 체험도 진행됩니다.(부채만들기)</dd>
+                    </dl>
+                  </li>
+                  <li>
+                    <img src="./images/content4/art5.jpg" alt="유기공방">
+                    <dl>
+                      <dt>유기공방</dt>
+                      <dd>최상품의 방짜를 제작하는 유기공방은 한국민속촌의 자랑입니다. 장인들의 땀과 정성이 담겨있는 유기공방의 놋수저 세트는 외국 분들에게도 인기입니다. (유기 공예 시연)</dd>
+                    </dl>
+                  </li>
+                  <li>
+                      <img src="./images/content4/art6.jpg" alt="대장간">
+                      <dl>
+                        <dt>대장간</dt>
+                        <dd>한국민속촌 대장간에서는 농기구와 연장 및 그 밖의 생활도구를 전통방식 그대로 제작합니다. 시우쇠를 단련해 철기를 만드는 모습과 함께 제품도 직접 구매할 수 있습니다. (철기 제작 시연)</dd>
+                      </dl>
+                  </li>
+                  <li>
+                    <img src="./images/content4/art7.jpg" alt="낙화공방">
+                    <dl>
+                        <dt>낙화공방</dt>
+                        <dd>낙화공방에서는 인두를 달궈 나무판과 종이에 그림이나 글씨를 쓰는 인두화 제작과정과 함께 다양한 인두화를 감상할 수 있습니다.</dd>
+                    </dl>
+                  </li>
+                  <li>
+                    <img src="./images/content4/art8.jpg" alt="탈공방">
+                    <dl>
+                      <dt>탈공방</dt>
+                      <dd>탈 공방에서는 오동나무와 오리나무를 칼로 깎아 제작하는 나무 탈 공예를 선보입니다. 인간의 다양한 성격과 특징을 섬세한 조각공예로 표현해내는 장인의 손길을 느낄 수 있습니다. (탈 조각 시연)</dd>
+                    </dl>
+                  </li>
+                  <li>
+                      <img src="./images/content4/art9.jpg" alt="염색공방">
+                      <dl>
+                        <dt>염색공방</dt>
+                        <dd>염색공방에서는 천연재료인 치자와 소목을 끓인 물로 정성 들여 무명천에 물을 들입니다. 특히 염색공방에서 체험 가능한 ‘손수건 천연염색 체험’은 언제나 인기 있는 체험입니다.</dd>
+                      </dl>
+                  </li>
+                  <li>
+                    <img src="./images/content4/art10.jpg" alt="악기공방">
+                    <dl>
+                      <dt>악기공방</dt>
+                      <dd>대금 명연주자인 악기공방의 장인에게 단소 만들기와 연주하기, 물피리 불기를 배울 수 있습니다.</dd>
+                    </dl>
+                  </li>
+                  <li>
+                      <img src="./images/content4/art11.jpg" alt="짚신공방">
+                      <dl>
+                        <dt>짚신공방</dt>
+                        <dd>짚신공방에서는 볏짚을 능숙하게 꼬아 짚신을 삼는 과정을 재현하고 있습니다. 일제시대부터 애용되었던 짚신을 전통방식 그대로 손으로 직접 꼬아 만드는 장인의 모습을 만날 수 있습니다.(짚신삼기 시연 / 짚신 신어보기 체험)</dd>
+                      </dl>
+                  </li>
+              </ul>
+              </section>
+            </div>
+
+
+
+        </article>
+        <!-- 서브 푸터영역 -->
+        <? include "../common/sub_foot.html" ?>
+
+     </div>
+<!--JQuery-->
+<script src="../common/js/jquery-1.12.4.min.js"></script>
+<script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+<script src="../common/js/fullnav.js"></script>
+<script src="./js/sub3.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* 모바일 코딩 필수 공통영역 */
+* {
+ margin:0;
+ padding:0;
+ -webkit-text-size-adjust:none; }
+ body{font-family: 'Nanum Gothic', sans-serif; font-size: 14px;
+    color: #333}
+img, fieldset { border:0; vertical-align:top }
+table{border-collapse: collapse; width: 100%;}
+ul, ol, li, dl { list-style:none; }
+h1, h2, h3, h4, h5, h6 {font-size:100%;  font-weight:700; font-family: 'Noto Sans KR', sans-serif;}
+hr { display:none; }
+a { color:inherit; }
+a, a:link {
+ color:#333;
+ text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {
+ color:#333;
+ text-decoration:none; }
+em, i, address {
+ font-style:normal;
+ font-weight:normal; }
+legend, caption {
+ display:none;
+ clear:both; }
+input, textarea, select, button, table {
+ font-size:inherit;
+ font-family:inherit;
+ line-height:inherit; }
+section, nav, article, aside, hgroup, header, footer { display:block }
+textarea, input {
+ border-radius:1px;}
+textarea { resize:none; }
+label { cursor:pointer; }
+.hidden,#skipNav{display: block; position: absolute; left:-1000%;top:0; width: 1px; height: 1px; overflow: hidden; color: #fff}
+
+/*헤드라인 폰트 연결 */
+  
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700&family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+  
+/*font-family: 'Nanum Gothic', sans-serif; font-weight:700
+font-family: 'Nanum Myeongjo', serif; font-weight:700
+font-family: 'Noto Sans KR', sans-serif; font-weight:700
+font-family: 'Roboto', sans-serif; font-weight:700*/
+
+/* 전체 공통 */
+#wrap{ width:100%; position: relative;  overflow:hidden;}
+
+/* 헤더공통 */
+#headerArea{position: fixed; width: 100%; background: #fff; z-index: 50; border-bottom: 1px solid #ccc;
+    box-shadow: 0 0 10px #999;}
+#headerArea .header_top{overflow: hidden;}
+#headerArea h1{float: left; margin: 13px 0 13px 15px;}
+#headerArea h1 a{display: block; width: 146px; height: 23px; overflow: hidden; background: url(../images/logo.png) no-repeat; text-indent: -9999px;}
+#headerArea .menu_btn {display: block; float: right; height: 50px; position: relative; border-radius: 5px;}
+#headerArea .menu_btn span { width: 20px; height: 4px; background: #fc7900; position: relative; text-indent: -9999px; display: block; margin: 26px 15px; border-radius: 5px; transition: all .3s;}
+#headerArea .menu_btn span::before { content: ''; display: block; width: 20px; height: 4px; background: #fc7900; position: absolute; top: -7px; left: 0; border-radius: 5px; transition: all .3s;}
+#headerArea .menu_btn span::after { content: ''; display: block; width: 20px; height: 4px; background: #fc7900; position: absolute; top: 7px; left: 0; border-radius: 5px; transition: all .3s;}
+/* 메뉴가 열렸을때 */
+#headerArea.mn_open .menu_btn span, #headerArea.mn_open .menu_btn span::before, #headerArea.mn_open .menu_btn span::after {background: #fc7900; transition: all .3s;}
+#headerArea.mn_open .menu_btn span {background: rgba(0,0,0,0); transition: all .3s;}
+#headerArea.mn_open .menu_btn span::before { transform: rotate(45deg); top: 0; transition: all .3s;}
+#headerArea.mn_open .menu_btn span::after { transform: rotate(-45deg); top: 0; transition: all .3s;}
+
+/* 네비공통 */
+#gnb{position: absolute; width: 100%;  right:-100%; top:50px; opacity: 0; background: #fff;z-index:20 }
+#gnb li{border-top:1px solid #ccc; text-align:left; font-family: 'Noto Sans KR', sans-serif; font-weight:700; font-size: 20px;}
+#gnb li a{display: block; padding: 15px 15px; color: #fc7900;} 
+#gnb li ul{background:#f7f7f7; display: none}
+#gnb li ul li a{font-size: 16px; color: #333;}
+#gnb .last{border-bottom:1px solid #ccc;}
+
+/* 푸터공통 */
+#footerArea{width: 100%; height: 230px; background: #ccc; padding-top: 15px;}
+#footerArea .footer_menu{margin: 0 auto; font-size: 12px;}
+#footerArea .footer_menu ul{overflow: hidden; width: 290px; margin: 0 auto;}
+#footerArea .footer_menu li{float: left; margin: 0 5px; position: relative;  text-align: center;}
+#footerArea .footer_menu li:nth-child(2)::after, #footerArea .footer_menu li:nth-child(3)::after{content: ''; display: block; width: 1px; height: 14px; background: #666;
+    position: absolute; left:-5px; top:1px}
+#footerArea .footer_menu .footer_logo{display: block; margin: 15px auto;}
+#footerArea .footer_menu address, #footerArea .footer_menu p{display: block; text-align: center; margin: 5px auto;}
+#footerArea .sns{width: 240px; overflow: hidden; margin:15px auto;}
+#footerArea .sns li{float: left; margin: 0 20px;}
+#footerArea .sns li i{color: #666; font-size: 40px;}
+#footerArea .pc_mode{display: block; width: 100%; border-top: 1px solid #999; text-align: center; font-size: 16px; padding: 15px 0;}
+
+/* 상단이동 버튼 */
+.topMove{display:block; width: 40px; height: 40px; background: #fc7900; border-radius: 20px;
+position: fixed; right:10%; bottom:50px; font-family: 'Roboto', sans-serif; font-weight:700; z-index: 50;} 
+.topMove i{display: block; margin-top: 10px; text-align: center; font-size: 20px;  color: #fff;}
+
+
+
+
+
+
+
+
+

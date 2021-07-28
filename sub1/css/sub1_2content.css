@@ -1,0 +1,57 @@
+/*font-family: 'Nanum Gothic', sans-serif; font-weight:700
+font-family: 'Nanum Myeongjo', serif; font-weight:700
+font-family: 'Noto Sans KR', sans-serif; font-weight:700
+font-family: 'Roboto', sans-serif; font-weight:700*/
+
+/* 민속촌소개 내용 영역*/
+
+#content .content_area{width: 1200px; margin: 0 auto;}
+#content .content_area h3{font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 50px; 
+    color: #333; padding-top: 100px; text-align: center; position: relative;}
+#content .content_area .history h3::before{content: ''; display: block; position: absolute; top: 170px; left: 558px; width: 87px; height: 5px; background: rgb(252, 121, 0);}
+#content .content_area .history .slogan{display: block; font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 22px; 
+    color: #666; text-align: center; padding: 50px 0 100px 0;}
+#content .content_area img{padding: 0 50px;}
+#content .content_area .history_map{width: 1200px; height: 1700px; background: url(../images/content2/history_map.jpg) center no-repeat; position: relative; margin: 100px 0 150px 0;}
+#content .content_area .history_slogan{display: block; text-align: center; font-family: 'Nanum Myeongjo', serif; font-weight:700; font-size: 50px; line-height: 75px; 
+    color: #666; position: absolute; left: 150px; top: 100px;}
+#content .content_area .history_slogan strong{color: rgb(252, 121, 0);}
+#content .content_area .history_map ul{position: relative}
+#content .content_area .history_map li{position: absolute;}
+#content .content_area .history_map .t2010{top: 58px; left: 660px; text-align: left;}
+#content .content_area .history_map .t2000{top: 555px; left: 130px; text-align: right;}
+#content .content_area .history_map .t1990{top: 957px; left: 660px; text-align: left;}
+#content .content_area .history_map .t1980{top: 1257px; left: 100px; text-align: right;}
+#content .content_area .history_map .t1970{top: 1555px; left: 660px; text-align: left;}
+#content .content_area .history_map dt{font-weight:700; font-size: 60px; margin-bottom: 30px;}
+#content .content_area .history_map dd{font-weight:500; font-size: 24px; margin-bottom: 10px; line-height: 36px;}
+#content .content_area .history_map dd span{font-weight:700; font-size: 24px; color: rgb(252, 121, 0);}
+
+#content .content_area .vision{overflow: hidden;}
+#content .content_area .vision h3::before{content: ''; display: block; position: absolute; top: 170px; left: 510px; width: 180px; height: 5px; background: rgb(252, 121, 0);}
+#content .content_area .vision h4{font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 36px; 
+    color: #333; padding-top: 100px; text-align: center;}
+#content .content_area .vision .slogan{display: block; font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 22px; 
+        color: #666; text-align: center; padding-top: 50px;}
+#content .content_area .vision .vision_slogan, #content .content_area .vision .mission_slogan{display: block; text-align: center; font-family: 'Nanum Myeongjo', serif; font-weight:700; font-size: 48px; line-height: 75px; 
+    color: #666; margin: 100px 0 50px 0;}
+#content .content_area .vision p span{color: rgb(252, 121, 0);}
+#content .content_area .vision p{font-size: 18px; color: #333; display: block; text-align: center; line-height: 2em; margin-bottom: 100px;}
+#content .content_area .vision .mission_circle{width: 1200px; height: 1200px; position: relative;}
+#content .content_area .vision .mission_circle .center_circle{width: 700px; height: 700px; border: 1px dotted #ccc; border-radius: 350px;
+position: absolute; top: 250px; left: 250px;}
+#content .content_area .vision .mission_circle .center_circle img{display: block; position: absolute; top: 200px; left: 175px;}
+#content .content_area .vision .mission_circle .center_circle p{display: block; text-align: center; font-family: 'Roboto', sans-serif; font-weight:700; font-size: 48px; color: #584a29;
+position: absolute; top: 420px; left: 253px;}
+#content .content_area .vision .mission_circle .circle1{width: 300px; height: 300px; border-radius: 150px; background: rgba(165, 163, 40, .85);
+position:absolute; top: 100px; left: 450px; z-index: 10;}
+#content .content_area .vision .mission_circle .circle1 dt{color: #666600; text-align: center; font-family: 'Roboto', sans-serif; font-weight:700; font-size: 26px; padding-top: 100px;}
+#content .content_area .vision .mission_circle .circle1 dd{color: #fff; font-size: 20px; font-weight: 700; text-align: center; padding-top: 10px; line-height: 1.5em;}
+#content .content_area .vision .mission_circle .circle2{width: 300px; height: 300px; border-radius: 150px; background: rgba(252, 141, 38, .85);
+    position:absolute; top: 700px; left: 150px; z-index: 10;}
+#content .content_area .vision .mission_circle .circle2 dt{color: #cc3300; text-align: center; font-family: 'Roboto', sans-serif; font-weight:700; font-size: 26px; padding-top: 100px;}
+#content .content_area .vision .mission_circle .circle2 dd{color: #fff; font-size: 20px; font-weight: 700; text-align: center; padding-top: 10px; line-height: 1.5em;}
+#content .content_area .vision .mission_circle .circle3{width: 300px; height: 300px; border-radius: 150px; background: rgba(234, 165, 38, .85);
+        position:absolute; top: 700px; left: 750px; z-index: 10;}
+#content .content_area .vision .mission_circle .circle3 dt{color: #996600; text-align: center; font-family: 'Roboto', sans-serif; font-weight:700; font-size: 26px; padding-top: 100px;}
+#content .content_area .vision .mission_circle .circle3 dd{color: #fff; font-size: 20px; font-weight: 700; text-align: center; padding-top: 10px; line-height: 1.5em;}

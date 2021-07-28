@@ -1,0 +1,49 @@
+/*font-family: 'Nanum Gothic', sans-serif; font-weight:700
+font-family: 'Nanum Myeongjo', serif; font-weight:700
+font-family: 'Noto Sans KR', sans-serif; font-weight:700
+font-family: 'Roboto', sans-serif; font-weight:700*/
+
+/* 민속촌소개 내용 영역*/
+
+#content .content_area{width: 1200px; margin: 0 auto;}
+#content .content_area h3{font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 50px; 
+    color: #333; padding-top: 100px; text-align: center; position: relative;}
+#content .content_area h3::before{content: ''; display: block; position: absolute; top: 170px; left: 510px; width: 183px; height: 5px; background: rgb(252, 121, 0);}
+#content .content_area .slogan{display: block; font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 22px; 
+    color: #666; text-align: center; padding: 50px 0 100px 0;}
+#content .content_area  h4{font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 40px; text-align: center; margin: 100px 0;}
+#content .content_area .main{margin: 0 50px;}
+#content .content_area h5{font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 30px; text-align: center; margin: 100px 0;}
+#content .content_area .detail{border-collapse: collapse; border-bottom: 2px solid #fc7900; border-top:2px solid #fc7900; width: 1100px; margin: 30px 0px 0px 50px;}
+#content .content_area .detail td{padding: 15px 0 15px 0; border-bottom: 1px solid #ccc; text-align: center; border-right: 1px solid #ccc; line-height: 27px;}
+#content .content_area .detail th{padding: 15px 0 15px 0; border-bottom: 1px solid #ccc; text-align: center;}
+#content .content_area .detail tr td:last-child{border-right: none}
+#content .content_area .detail tr th:nth-child(1){width: 200px;}
+#content .content_area .detail tr th:nth-child(2){width: 200px;}
+#content .content_area .detail tr th:nth-child(3){width: 700px;}
+#content .content_area .detail tr:nth-child(10) td:nth-child(2), #content .content_area .detail tr:nth-child(11) td:last-child{border-right: 1px solid #ccc; }
+#content .content_area .raw1{background: #f7f7f7;}
+#content .content_area .course_notice{display: block; line-height: 27px; margin: 10px 0 150px 50px;}
+#content .content_area .course_notice span{color: #fc7900;}
+#content .content_area .ex_tab2{width: 600px; overflow: hidden; box-shadow: 0 2px 10px 0 #ccc; margin: 100px 300px;}
+#content .content_area .ex_tab2 li{float: left; width: 300px; background: #fff;}
+#content .content_area .ex_tab2 li a{display: block; width: 296px; border: 2px solid #f7f7f7; padding: 13px 0; font-size: 22px; text-align: center; font-family: 'Noto Sans KR', sans-serif; font-weight:700; transition: all .15s ease-in;}
+#content .content_area .ex_tab2 li a:hover{background: #fff; border: 2px solid #fc7900; color: #fc7900;}
+#content .content_area .detail{border-collapse: collapse; border-bottom: 2px solid #fc7900; border-top:2px solid #fc7900; width: 1100px; margin: 0 50px;}
+#content .content_area .detail td{padding: 15px 0 15px 0; border-bottom: 1px solid #ccc; text-align: center; border-right: 1px solid #ccc; line-height: 27px;}
+#content .content_area .detail th{padding: 15px 0 15px 0; border-bottom: 1px solid #ccc; text-align: center;}
+#content .content_area .detail tr td:last-child{border-right: none}
+#content .content_area .course_1 .detail tbody tr:nth-child(2) td ,#content .content_area .course_1 .detail tbody tr:nth-child(12) td, #content .content_area .course_1 .detail tbody tr:nth-child(13) td,
+#content .content_area .course_1 .detail tbody tr:nth-child(14) td, #content .content_area .course_1 .detail tbody tr:nth-child(15) td{border-right: 1px solid #ccc;}
+#content .content_area .detail tr th:nth-child(1){width: 100px;}
+#content .content_area .detail tr th:nth-child(2){width: 500px;}
+#content .content_area .detail tr th:nth-child(3){width: 500px;}
+#content .content_area .raw1{background: #f7f7f7;}
+#content .content_area .course_2 .detail tr th:nth-child(1){width: 100px;}
+#content .content_area .course_2 .detail tr th:nth-child(2){width: 333px;}
+#content .content_area .course_2 .detail tr th:nth-child(3){width: 333px;}
+#content .content_area .course_2 .detail tr th:nth-child(4){width: 333px;}
+#content .content_area .course_2 .detail tbody tr:nth-child(4) td ,#content .content_area .course_2 .detail tbody tr:nth-child(12) td, #content .content_area .course_2 .detail tbody tr:nth-child(13) td,
+#content .content_area .course_2 .detail tbody tr:nth-child(14) td, #content .content_area .course_2 .detail tbody tr:nth-child(15) td,  #content .content_area .course_2 .detail tbody tr:nth-child(16) td{border-right: 1px solid #ccc;}
+#content .content_area .course_2 .detail td{font-size: 14px;}
+#content .content_area .course_2 .detail tr:nth-child(9) td:nth-child(2), #content .content_area .course_2 .detail tr:nth-child(11) td:last-child{border-right: 1px solid #ccc; }

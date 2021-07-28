@@ -1,0 +1,51 @@
+.title_area{margin-top: 50px; position: relative;}
+.title_area_box{height: 150px; overflow: hidden; background: url(../images/sub2_main.jpg) center no-repeat; background-size: cover;}
+h2{position: absolute; top: 60px; width: 100%; text-align: center; color: #fff; font-size: 22px;}
+#content{width: 100%; margin: 0 auto;}
+.tab_menu{overflow: hidden; width: 90%; margin: 0 5%; position: absolute; top: 135px; box-shadow: 0px 4px 10px 0px #666;}
+.tab_menu li{float: left; width: 50%; text-align: center; background: #fff;}
+.tab_menu li a{display: block; padding: 10px 0; font-size: 18px; color: #fc7900; font-family: 'Noto Sans KR', sans-serif; font-weight:700}
+#content .contlist{display: none;}
+#content h3{width: 100px; margin: 0 auto; font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 24px; 
+    color: #333; padding-top: 90px; text-align: center; position: relative;}
+#content h3::before{content: ''; display: block; position: absolute; top: 125px; left:0; width: 100px; height: 4px; background: rgb(252, 121, 0);}
+#content .slogan{display: block; font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 15px; 
+    color: #666; text-align: center; padding-top: 20px;}
+
+    #content h4{text-align: center; font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 20px; margin:50px 0;}    
+    #content .price{border-collapse: collapse; border-bottom: 2px solid #fc7900; border-top:2px solid #fc7900; width: 98%; margin: 30px 1%;}
+    #content .price td{padding: 15px 0; border-bottom: 1px solid #ccc; text-align: center;}
+    #content .price th{padding: 15px 0; border-bottom: 1px solid #ccc; text-align: center;}
+    #content .price tr th:nth-child(1){width: 25%;}
+    #content .price tr th:nth-child(2){width: 25%;}
+    #content .price tr th:nth-child(3){width: 25%;}
+    #content .price tr th:nth-child(4){width: 25%;}
+    #content .raw1{background: #f7f7f7;}
+    
+    #content .member_price ul{width: 98%; border: 1px solid #ccc; margin: 0 1% 50px 1%; overflow: hidden; box-sizing: border-box; padding:0 15px 30px 0;}
+    #content .member_price li{width: 96%; overflow: hidden; margin: 15px 2%;position: relative;}
+    #content .member_price li img{float: left; width: 40px;  height: 40px; margin: 15px}
+    #content .member_price li span{float: left; display: block; margin:25px 0; font-size: 16px; font-weight: 700;}
+    #content .member_price li p{clear: both; margin-left: 40px; line-height: 2em; display: block; position: relative;}
+    #content .member_price li p::after{content: '*'; display: block; position: absolute; top: 0; left:-10px;}
+    #content .member_price li a{display: block; width: 120px; border-radius: 35px;
+      font-size: 12px; font-weight: 700; background: rgb(252, 121, 0); color: #fff; text-align: center;   padding: 12px 5px; position: absolute; top: 15px; right: 0;}
+
+    
+    #content .service{width: 98%; border: 1px solid #ccc; margin: 0 1% 50px 1%; box-sizing: border-box; padding:15px}
+    #content .service li{margin: 20px 0 20px 30px; position: relative;}
+    #content .service li::after{content: ''; display: block; position: absolute; width: 24px; height: 24px;  background: url(../images/sub1/giftbox.png); top: -2px; left:-30px;}
+ 
+
+    
+    #content .member_service .price{margin-bottom: 10px;}
+    #content .member_service .row2{border-right: 1px solid #ccc;}
+    #content .member_service .notice{display: block;width: 90%; margin: 0 5%; font-size: 12px;}
+    
+    #content .member_service .caution{width: 98%; border: 1px solid #ccc; margin: 0 1% 50px 1%;}
+    #content .member_service .caution li{width: 90%; margin: 20px 5%; position: relative;}
+    #content .member_service .caution li i{display: block; color: skyblue; font-size: 20px; margin-bottom: 20px;}
+    #content .member_service .caution li span{float: left; display: block; margin: 0 0 30px 20px; font-size: 18px; font-weight: 700; position: absolute; top: -3px; left: 10px;}
+    #content .member_service .caution li p{margin-left: 30px; line-height: 2em; position: relative;}
+    #content .member_service .caution li p::after{content: '*'; display: block; position: absolute; top: 0; left:-10px;}
+    

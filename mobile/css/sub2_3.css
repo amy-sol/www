@@ -1,0 +1,23 @@
+.title_area{margin-top: 50px; position: relative;}
+.title_area_box{height: 150px; overflow: hidden; background: url(../images/sub2.jpg) center no-repeat; background-size: cover;}
+h2{position: absolute; top: 60px; width: 100%; text-align: center; color: #fff; font-size: 22px;}
+#content{width: 100%; margin: 0 auto;}
+.tab_menu{overflow: hidden; width: 90%; margin: 0 5%; position: absolute; top: 135px; box-shadow: 0px 4px 10px 0px #666;}
+.tab_menu li{float: left; width: 50%; text-align: center; background: #fff;}
+.tab_menu li a{display: block; padding: 10px 0; font-size: 18px; color: #fc7900; font-family: 'Noto Sans KR', sans-serif; font-weight:700}
+#content .contlist{display: none;}
+
+#content h3{width: 140px; margin: 0 auto; font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 24px; 
+    color: #333; padding-top: 90px; text-align: center; position: relative;}
+#content h3::before{content: ''; display: block; position: absolute; top: 125px; left:0; width: 140px; height: 4px; background: rgb(252, 121, 0);}
+#content .slogan{display: block; font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 15px; 
+    color: #666; text-align: center; padding: 20px 0 50px 0;}
+#content  h4{font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 20px; text-align: center; margin: 0 auto 50px auto;}
+#content .list{width: 98%; margin: 0 1%;}
+#content .list li{width: 98%; margin: 30px 1%; border: 1px solid #ccc; box-sizing: border-box;}
+#content .list .last{margin-bottom: 50px;}
+#content .list li img{width: 100%;}
+#content .list dl{font-family: 'Nanum Gothic', sans-serif; margin: 20px; }
+#content .list dt{font-family: 'Noto Sans KR', sans-serif; font-weight:700; font-size: 15px; margin-bottom: 10px;}
+#content .list dt span{color: #fc7900;}
+#content .list dd{line-height: 1.5em; margin-bottom: 5px;}

@@ -1,0 +1,22 @@
+/*font-family: 'Nanum Gothic', sans-serif; font-weight:700
+font-family: 'Nanum Myeongjo', serif; font-weight:700
+font-family: 'Noto Sans KR', sans-serif; font-weight:700
+font-family: 'Roboto', sans-serif; font-weight:700*/
+
+/* 민속촌소개 내용 영역*/
+
+
+#content .content_area{width: 1200px; margin: 0 auto;}
+#content .content_area h3{font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 50px; 
+    color: #333; padding-top: 100px; text-align: center; position: relative;}
+#content .content_area h3::before{content: ''; display: block; position: absolute; top: 170px; left: 453px; width: 291px; height: 5px; background: rgb(252, 121, 0);}
+#content .content_area .slogan{display: block; font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 22px; 
+    color: #666; text-align: center; padding: 50px 0 100px 0;}
+#content .content_area .josun_village .gallery ul{overflow: hidden; margin: 0 0 100px 0; position: relative;}
+#content .content_area .josun_village .gallery li{float: left; margin: 20px 27px 20px 0;}
+#content .content_area .josun_village .gallery li:nth-child(1){margin-left: 24px;}
+#content .content_area .josun_village .gallery li a{display: block; box-shadow: 5px 5px 10px 0 #ccc; transition: all .15s ease-in; filter: grayscale(.8);}
+#content .content_area .josun_village .gallery li a:hover{box-shadow: 5px 5px 10px 0 #999; transform: scale(1.1); filter: none;}
+#content .content_area .josun_village .comment{display: block; text-align: justify; font-size: 20px; line-height: 30px; margin-bottom: 100px; }
+#content .content_area .josun_village .comment span{font-weight:700; font-size: 30px; color: #fc7900;}
+#content .content_area .josun_village .concept{margin-bottom: 150px;}

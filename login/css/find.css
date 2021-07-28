@@ -1,0 +1,53 @@
+#content{
+    background: url(../../images/pattern.jpg) center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0;
+}
+.hidden{display: block; position: absolute; z-index: 10; left: -1000%; width: 1px; height: 1px; overflow: hidden; color: #fff}
+a{text-decoration: none; color: #333}
+p{text-align: center}
+
+#wrap{ width: 800px; margin: 0 auto; padding: 50px 0; position: relative; overflow: hidden; background: #fff;}
+.logo{ width: 300px; height: 50px; display: block; margin: 0 auto 50px;
+    background: url(../../member/images/logo.jpg) 0 0 no-repeat; text-indent: -9999px}
+#title{text-align: center}
+fieldset{width: 500px; margin: 0 auto; border: none}
+fieldset #name{width: 480px; height: 50px; padding: 0 10px;  margin: 20px 0; border-bottom: 1px solid #efefef;background: transparent;
+    outline: none;    font-size: 16px;}
+fieldset #id{width: 480px; height: 50px; padding: 0 10px;  margin: 20px 0; border-bottom: 1px solid #efefef;background: transparent;
+        outline: none;    font-size: 16px;}
+
+input{border: none; display: block; margin: 20px 0; width: 480px; height: 50px; background-color: #eed; padding: 0 10px; font-size: 16px; border-radius: 3px; outline: none}
+
+.signup, .find{width: 496px; cursor: pointer; border: 2px solid #fc7900;  border-radius: 0; background: #fff; color: #fc7900; margin-bottom: 15px; outline: none; transition: all .2s ease-in; 
+    font-weight: 600; font-size: 20px; padding: 15px 0; height: 60px;}
+
+/* .go_join{height: 40px; line-height: 40px; margin: 30px auto; border-radius: 3px} */
+.signup:hover, .find:hover{  background: #fc7900; color: #fff;}
+
+ul{list-style: none; overflow: hidden; width: 500px; margin: 0 auto; padding: 0}
+ul li{margin: 30px auto; overflow: hidden; float: left; text-align: center}
+ul li:last-child{float: right}
+ul li span{margin-left: 20px}
+ul li i{margin-right: 8px}
+
+#join_button{position: relative; margin-top: 50px; } 
+#join_button::before{content: ''; width: 500px; height: 1px; background: #ccc; position: absolute; top: -20px; left: 50%; margin-left: -250px}   
+#join_button p{color: #999;} 
+#join_button a{width: 496px; display: block; text-align: center; font-size: 20px; padding: 15px 0; margin: 0 auto;
+    background-color: #fff; border: 2px solid #666; color: #666; font-weight: 600; transition: all .2s ease-in;}
+#join_button a:hover{color: #fff; background-color: #666;}
+/*find*/
+.telBox {clear: both;margin: -20px 0}
+.telBox select {width: 135px; border: 0px; font-size: 18px; color: #666; height: 60px; background: #fff; height: 50px; padding: 7px; border-bottom: 1px solid #efefef;}
+.telBox input{width: 135px; display: inline; height: 50px; padding: 0 10px;  margin: 20px 0; border-bottom: 1px solid #efefef;background: transparent; outline: none;    font-size: 16px;}
+
+/* width: 480px; height: 50px; padding: 0 10px;  margin: 20px 0; border-bottom: 1px solid #efefef;background: transparent;
+    outline: none;    font-size: 16px; */
+
+#id_input_button .go li{margin: 30px 0; width: auto; color: #999;}
+#id_input_button .go li:last-of-type a{margin-left: 10px}
+
+.loadtexton{text-align: center; border: 1px dashed #ccc; width: 500px; overflow: hidden; margin: 20px 0 20px -250px; position: relative; left: 50%; border-radius: 10px; display: block; padding: 20px 0; line-height: 1.5em}
+.loadtexton strong:first-of-type{font-size: 20px; line-height: 2em}

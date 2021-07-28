@@ -1,0 +1,126 @@
+/* 와이드 pc  */
+
+	
+.videoBox{width:100%;height:100%; overflow:hidden; position:fixed;}
+
+#imgBG{
+	position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+}
+.videoBox .visual_title{position: absolute; top: 30%; left: 0; width: 100%;
+   text-align: center; color: #fff; font-family: 'Pacifico', cursive;  font-size: 120px; margin: 0 auto;}
+
+.down{display: block; text-indent: -9999px; position: absolute; overflow: hidden; width: 60px; height: 120px;
+	 left:50%; margin-left: -30px; bottom: 30%; background: url(../images/arrow.png);
+	animation:ani 1.2s infinite alternate;}
+   @keyframes ani{
+      0%{
+          bottom: 150px;
+      }
+      100%{
+          bottom: 170px;
+      }
+  }	
+	
+#content{width: 100%;}
+#content .movie{ top: 50px;  width: 100%; position: relative;}
+#content .movie .movie_box1{background: rgba(0, 0, 0, .85); width: 90%; margin: 0 5%;padding-bottom: 50px;}
+#content .movie .movie_box2{width: 100%; background: #000; padding:30px 0; margin-top: 50px;}
+#content .movie h3{text-align: center; color: #fff; font-family: 'Pacifico', cursive;  font-size: 100px; margin: 100px auto;}
+#content .movie .movie_box1 .top_img{width: 100%;}
+#content .movie .movie_img{overflow: hidden; width: 90%; margin: 0 5%;}
+#content .movie .movie_img li{float: left; width: 31.33%; margin: 10px 1%}
+#content .movie .movie_img a{display: block; transition: all .25s;}
+#content .movie .movie_img img{width: 100%; filter: grayscale(1); transition: all 0.3s ease-in}
+#content .movie .movie_img span{color: #fff; display: block; width: 100%; font-weight: 700; text-align: center; margin: 15px 0; position: relative;}
+#content .movie .movie_img span::after{background: none repeat scroll 0 0 transparent; bottom: 0; content: ""; display: block; height: 3px; left: 50%; position: absolute; top: 30px; background: red; transition: all 0.3s ease 0s, left 0.3s ease 0s; width: 0;}
+#content .movie .movie_img a:hover span::after {width: 64%; left: 18%;}
+#content .movie .movie_img a:hover img{filter: grayscale(0); transform: scale(1.1);}
+
+#content .movie .music_img{overflow: hidden; width: 90%; margin: 0 5%;}
+#content .movie .music_img li{float: left; width: 31.33%; margin: 10px 1%}
+#content .movie .music_img a{display: block; transition: all .25s;}
+#content .movie .music_img img{width: 100%; filter: grayscale(1); transition: all 0.3s ease-in}
+#content .movie .music_img span{color: #fff; display: block; width: 100%; font-weight: 700; text-align: center; margin: 15px 0; position: relative;}
+#content .movie .music_img span::after{background: none repeat scroll 0 0 transparent; bottom: 0; content: ""; display: block; height: 3px; left: 50%; position: absolute; top: 30px; background: red; transition: all 0.3s ease 0s, left 0.3s ease 0s; width: 0;}
+#content .movie .music_img a:hover span::after {width: 64%; left: 18%;}
+#content .movie .music_img a:hover img{filter: grayscale(0); transform: scale(1.1);}
+
+#content .movie_box2 .interview_box{overflow: hidden; margin-bottom: 100px;}
+#content .movie_box2 .interview_box li{width: 28.33%; margin: 0 2.5%; float: left;}
+#content .movie_box2 .interview_box li:hover .youtube{filter: grayscale(0); top: 30px; left: 30%;width: 40%;}
+#content .movie_box2 .interview_box li:hover img{filter: grayscale(.8);}
+#content .movie_box2 .interview_box li a{display: block; position: relative;}
+#content .movie_box2 .interview_box li a .youtube{position: absolute; top: 40px; left: 35%; width: 30%; transition: all .25s ease-in;}
+#content .movie_box2 .interview_box img{width: 100%; transition: all .25s ease-in;}
+#content .movie_box2 .interview_box span{display: block; width: 80%; padding: 20px 10%; background: #fff; height: 130px;}
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	#content{ width:auto}
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+#content{ width:auto; margin:0;}
+#content .movie h3{font-size: 70px;  margin: 80px auto;}
+#content .movie .movie_img li{width: 45%; margin: 10px 2.5%}
+#content .movie .movie_img li:nth-child(3){display: none;}
+#content .movie .movie_img img{width: 100%; filter: grayscale(0);}
+#content .movie .movie_img a:hover span::after {width: 0; left: 0;}
+#content .movie .movie_img a:hover img{ transform: scale(1);}
+
+#content .movie .music_img li{float: left; width: 45%; margin: 10px 2.5%}
+#content .movie .music_img li:nth-child(2){display: none;}
+#content .movie .music_img img{width: 100%; filter: grayscale(0);}
+#content .movie .music_img span{color: #fff; display: block; width: 100%; font-weight: 700; text-align: center; margin: 15px 0; position: relative;}
+#content .movie .music_img a:hover span::after {width: 0; left: 0}
+#content .movie .music_img a:hover img{ transform: scale(1);}
+
+#content .movie_box2 .interview_box{overflow: hidden;}
+#content .movie_box2 .interview_box li{width: 45%; margin: 0 2.5%;}
+#content .movie_box2 .interview_box li:nth-child(1){display: none;}
+#content .movie_box2 .interview_box li:hover .youtube{top: 35px;}
+#content .movie_box2 .interview_box li:hover img{filter: grayscale(0);}
+#content .movie_box2 .interview_box li a .youtube{position: absolute; top: 35px; left: 30%; width: 40%;}
+#content .movie_box2  .interview_box span{padding: 15px 10%; height: 80px;}
+}
+
+
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+   #content .movie h3{font-size: 50px;}
+
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+#content{ width:auto; margin:0;}
+#content .movie h3{font-size: 40px;  margin: 60px auto;}
+.videoBox .visual_title{position: absolute; top: 35%; font-size: 80px;}
+#content .movie .movie_box2{ padding: 10px 0;}
+
+#content .movie .movie_img li{width: 90%; margin: 20px 5%}
+#content .movie .music_img li{float: left; width: 90%; margin: 20px 5%}
+#content .movie_box2 .interview_box li{width: 90%; margin: 20px 5%;}
+#content .movie_box2 .interview_box li a .youtube{display: none;}
+#content .movie_box2  .interview_box span{padding: 10px 10%; height: 30px;}
+}
+
+/* 소형 모바일 */
+@media screen and (max-width:480px) {
+	}
+
+
+

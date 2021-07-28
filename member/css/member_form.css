@@ -1,0 +1,145 @@
+#content{
+      background: url(../../images/pattern.jpg) center center repeat-x;
+      background-size: cover;
+      background-attachment: fixed
+  }
+  .inner_wrap{
+      width: 800px;
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden;
+      background: #fff;
+      padding: 0 100px;
+  }
+  #content .logo{
+      width: 300px;
+      height: 50px;
+      display: block;
+      margin: 100px auto 60px;
+      background: url(../images/logo.jpg) 0 0 no-repeat;
+  }
+  #content h3{
+      color: #333;
+      font-size: 32px;
+      margin-bottom: 40px;
+      letter-spacing: 10px;
+      font-weight: 600;
+      padding: 5px 15px 5px 15px;
+      display: inline-block;
+      font-family: 'Noto Sans KR', sans-serif; font-weight:700;
+      text-transform: uppercase;
+  }
+  #content form{
+      margin-bottom: 100px;
+      
+  }
+  #content .list_wrap{
+      border-bottom: 0px;
+  }
+  #content .form_row{
+      overflow: hidden;
+      border: 2px solid #efefef;
+      border-bottom: 0px;
+  } 
+  #content .form_row li{
+      float: left;
+  }
+  #content .form_row.pw{
+      background: #fff url(../images/pw_icon.jpg) 96% center no-repeat;
+  }
+  #content .form_row.pw_check{
+      background: #fff url(../images/pw_check_icon.jpg) 96.8% center no-repeat;
+  }
+  #content .form_row .tit{
+      width: 160px;
+      background: #f9f9f9;
+      border-right: 1px solid #efefef;
+  }
+  #content .form_row .margin_25{
+      margin: 25px;
+  }
+  #content .form_row .tit,#content .form_row .tit label{
+      font-size: 16px;
+      font-weight: 600;
+      padding: 25px 0;
+      position: relative;
+  }
+  #content .form_row .tit label{
+      margin-left: 20px;
+  }
+
+  #content .form_row .tit span{
+      position: relative;
+      margin-left: 20px;
+  }
+  #content .form_row .tit label::after,#content .form_row .tit span::after{
+      content: '*';
+      display: block;
+      position: absolute;
+      right: -20px;
+      top: 23px;
+      font-size: 20px;
+      color: #e60012;
+  }
+  #content .form_row .tit span::after{
+      top: -2px;
+  }
+  #content .list_wrap input,#content select{
+      padding: 15px 20px;
+      margin: 12px 20px;
+      background: #f9f9f9;
+      border: 0;
+      outline: none;
+  }
+  #content #loadtext span,#content #loadtext2 span{
+      position: relative;
+      right: -220px;    
+      font-size: 12px;
+  }
+  #content .tel input,#content .email{border-bottom: 2px solid #efefef;}
+  #content .tel input,#content .email input{
+      padding: 15px 20px;
+      margin: 12px;
+      background: #f9f9f9;
+      border: 0;
+      outline: none;
+  }
+  #content .tel .border-r-1{
+      border-right: 1px solid #efefef;
+  }
+  #content .button{
+      overflow: hidden;
+      margin-top: 50px;
+  }
+  #content .button li{
+      float: left;
+      margin-right: 10px;
+  }
+  #content .button li:nth-child(2){
+    margin-right: 0px;
+}
+  #content .button a{
+      display: block;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 600;
+      color: #fff;
+      padding: 19px 0;
+  }
+  #content .button .join_btn, #content .button .reset_btn{
+      width: 390px;
+  }
+  #content .button .join_btn{
+      background: #fc7900;
+      border: 2px solid #fc7900;
+  }
+  #content .button .join_btn.modify{
+      width: 666px;
+  }
+  #content .button .reset_btn{
+      background: #333;
+      border: 2px solid #333;
+  }
+ 
+
+  

@@ -1,0 +1,71 @@
+.title_area{margin-top: 50px; position: relative;}
+.title_area_box{height: 150px; overflow: hidden; background: url(../images/sub2_main.jpg) center no-repeat; background-size: cover;}
+h2{position: absolute; top: 60px; width: 100%; text-align: center; color: #fff; font-size: 22px;}
+.tab_menu{overflow: hidden; width: 90%; margin: 0 5%; position: absolute; top: 135px; box-shadow: 0px 4px 10px 0px #666;}
+.tab_menu li{float: left; width: 50%; text-align: center; background: #fff;}
+.tab_menu li a{display: block; padding: 10px 0; font-size: 18px; color: #fc7900; font-family: 'Noto Sans KR', sans-serif; font-weight:700}
+#content .content_area{width: 100%; margin: 0 auto;}
+#content .contlist{display: none;}
+#content h3{width: 100px; margin: 0 auto; font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 24px; 
+    color: #333; padding-top: 90px; text-align: center; position: relative;}
+#content h3::before{content: ''; display: block; position: absolute; top: 125px; left:0; width: 100px; height: 4px; background: rgb(252, 121, 0);}
+#content .slogan{display: block; font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 15px; 
+    color: #666; text-align: center; padding: 20px 0 50px 0;}
+#content .time_notice{position: relative;}
+#content .frame{width: 98%; margin: 0 1%;}
+#content .time_notice p{position: absolute; top: 20px; display: block; width: 100%; text-align: center; font-family: 'Nanum Myeongjo', serif; font-weight:700; font-size: 16px; color: #584a29;}
+#content .time_notice span{position: absolute; bottom: 20px; display: block; width: 100%; text-align: center; font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 24px; color: #fc7900;}
+@media screen and (min-width:400px) {
+    #content .time_notice p{font-size: 20px;}
+    #content .time_notice span{font-size: 30px;}
+   }
+@media screen and (min-width:450px) {
+    #content .time_notice p{font-size: 24px; top: 35px;}
+    #content .time_notice span{font-size: 32px; bottom: 35px;}
+   }    
+@media screen and (min-width:500px) {
+    #content .time_notice p{font-size: 26px; top: 35px;}
+    #content .time_notice span{font-size: 34px; bottom: 35px;}
+   }    
+@media screen and (min-width:550px) {
+    #content .time_notice p{font-size: 28px; top: 40px;}
+    #content .time_notice span{font-size: 36px; bottom: 40px;}
+   }    
+
+#content .notice{width: 98%; border: 1px solid #ccc; margin: 50px 1% 100px 1% ; box-sizing: border-box;}
+#content .notice_title{width: 90%; display: block; margin: 30px 5%; position: relative;}
+#content .notice_title i{display: block; color: skyblue; font-size: 20px; float: left;}
+#content .notice_title span{display: block; font-size: 18px; font-weight: 700; position: absolute; top: -3px; left: 25px;}
+#content .notice ul{width: 90%; margin: 90px 5% 15px 5%;}
+#content .notice li{width: 100%; overflow: hidden; margin-bottom: 30px;}
+#content .notice li img{display: block; float: left; width: 15%;}
+#content .notice li p{float: right; width: 75%; margin: 10px 5% 0px 5%; display: block; line-height: 21px; text-align: justify;}
+
+#content .entrancefee h4{font-family: 'Noto Sans KR', sans-serif; font-weight:500; font-size: 20px; text-align: center; margin: 50px auto 30px auto;}
+#content .pay{border-collapse: collapse; border-bottom: 2px solid #fc7900; border-top:2px solid #fc7900; width: 98%; margin: 30px 1%;}
+#content .pay td{padding: 15px 0 15px 0; border-bottom: 1px solid #ccc; text-align: center;}
+#content .pay th{padding: 15px 0 15px 0; border-bottom: 1px solid #ccc; text-align: center;}
+#content .pay tr th:nth-child(1){width: 33.33%;}
+#content .pay tr th:nth-child(2){width: 33.33%;}
+#content .pay tr th:nth-child(3){width: 33.33%;}
+#content .raw1{background: #f7f7f7;}
+
+#content .notice2{width: 98%; border: 1px solid #ccc; margin: 0 1% 50px 1%;}
+#content .notice2 ul{width: 90%; margin: 90px 5% 15px 5%;}
+#content .notice2 li{width: 100%; overflow: hidden; margin-bottom: 30px;}
+#content .notice2 li img{display: block; float: left; width: 15%;}
+#content .notice2 li p{float: right; width: 75%; margin: 10px 5% 0px 5%; display: block; line-height: 21px; text-align: justify;}
+
+#content .audio{width: 98%; border: 1px solid #ccc; margin: 0 1% 50px 1%; overflow: hidden; padding: 20px 20px; box-sizing: border-box;}
+#content .audio img{display: block; float: left; width: 15%;}
+#content .audio ul{float: right; width: 73%; margin: 10px 5% 0px 7%; display: block; line-height: 21px; text-align: justify;}
+#content .audio li{line-height: 2em; position: relative; margin-bottom: 15px;}
+#content .audio li::before{content: '·'; display: block; position: absolute; top: 0; left:-10px; font-weight: 700;}
+
+#content .camera{width: 98%; border: 1px solid #ccc; margin: 0 1% 50px 1%; overflow: hidden; padding: 20px 20px; box-sizing: border-box;}
+#content .camera img{display: block; float: left; width: 15%;}
+#content .camera ul{float: right; width: 73%; margin: 10px 5% 0px 7%; display: block; line-height: 21px; text-align: justify;}
+#content .camera li{line-height: 2em; position: relative; margin-bottom: 15px;}
+#content .camera li::before{content: '·'; display: block; position: absolute; top: 0; left:-10px; font-weight: 700;}
+#content .camera li span{color: #fc7900;}
+#content .camera li strong{font-size: 12px;}
